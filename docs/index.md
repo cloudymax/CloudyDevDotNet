@@ -1,0 +1,46 @@
+---
+title: CloudyDev.Net
+hide:
+  - toc
+  - navigation
+---
+
+
+<head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        h1 {
+          display: none;
+        }
+    </style> 
+</head>
+ 
+<div id=hero>
+  <div class="hero-bg">
+    <video playsinline autoplay muted id="video-bg" class="video-bg">
+    </video>
+  </div>
+</div>
+
+<div class="card-container">
+  <div class="card">
+
+  <div class="card-header">
+  <h3>Hi, I'm Max</h3>
+  </div>
+
+  <div class="card-body">
+          <blockquote>
+          I'm a Creative Senior Cloud Architect, DevOps Engineer, and Game Developer based in Amsterdam, Netherlands. 
+          I have over 11 years of experience building automated solutions, infrastructure as code, micro-services and games on windows, linux, android and in the cloud.
+          This website is where I keep projects I work on for fun and test out new ideas.
+          <br></br>
+          You can find the projects that power this site and create the cool gifs in the background at my github. Feel free to connect on Linkedin, or share some memes on twitter ^-^
+          </blockquote>
+    </div>
+    <div class="card-links">
+      <h4><a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a> <a href="https://www.twitter.com/@sudosendtweet"><i class="fa fa-twitter-square"></i></a></h4>
+    </div>
+  </div>
+</div>

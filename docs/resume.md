@@ -21,12 +21,11 @@ title: "Max Roby's Resume"
 <b></b>
   <div class="card-body">
           <blockquote>
-            I'm a <emp>Full Stack Engineer</emp> with <emp>10+ years</emp> experience across multiple segments of the tech industry specializing in <emp>Automation</emp>, <emp>Architecture</emp>, and <emp>Gamification</emp>.
-  <br></br>
-              Currently, I'm developing <b>Cost-Optimized</b>, <b>
-              Hyperconvered</b>, <b>Ephemeral</b>, compute environements that are <b>Fast</b> and <b>carbon-neutral</b> . I'm excited to use <b>Computer Vison</b>, <b>Machine Learning</b>, <b>Digital-Twins</b>, and <b>Renewable Energy Credits</b> to redefine how we <b>collaberate</b> and <b>empathise</b> with eachother in digital spaces.
-  <br></br>
-              Outside of work, I enjoy learning learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.
+            I'm a Full Stack Engineer with 10+ years experience across multiple segments of the tech industry specializing in Automation, Architecture, and Gamification. My goal is to improve the ways we work, play and collaborate in shared virtual spaces.
+            <br></br>
+            Currently, I'm developing Cost-Optimized, Hyperconvered, Ephemeral, compute environments that are Fast and carbon-neutral . I'm excited to use Computer-Vision, Machine Learning, Digital-Twins, and Renewable Energy Credits to redefine how we collaborate and empathise with each other in digital spaces.
+            <br></br>
+            Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.
           </blockquote>
     </div>
     <div class="card-links">
@@ -43,19 +42,19 @@ title: "Max Roby's Resume"
 >
 > __2020 - Present__
 
-As Sr. Architect I led efforts to shift FedEx's European co-location and public cloud assets to on-prem and hybrid-cloud following the acquisition of TNT Netherlands. Coordinating with international teams, I developed a golden-path architecture using __Ansible, Terraform, Azure Cloud, and VMware Tanzu__ which aligned with international business OKRs and key strategic initiatives.
+As Sr. Architect I led efforts to shift FedEx's European co-location and public cloud assets to on-prem and hybrid-cloud following the acquisition of TNT Netherlands. Coordinating with international teams, I developed a golden-path architecture using __Ansible, Terraform, Azure Cloud, and VMware Tanzu__ which aligned with international business OKRs and key strategic initiatives, specifically: Cost Optmization, Cost Observability, Speed of Service, Security, and Carbon-Neutrality.
 
-<center>__Crated/contributed to:__</center>
+<center>__To rapidly onbaord teams to the platform, I developed:__</center>
+
+- Internal memory-cache/ORM microservice(__python, snap, ubuntu core__), whcih broke through development deadlock caused by legacy processes offering a step-change solution to enable further cloud transformation.
 
 - Multiple static website generator micro-services (__mkdocs, jekyl material, python, webpack__) and accompanying build/deploy pipelines (__Azure, Github, Jenkins, Ansible, Terraform__)for multiple teams to automatically generate documentation that is compliant with brand-standards for __css, UX, branding, and accessability__.
 
-- Multiple DBaaS micro-services (__MongoDB, Postgres 11, Hazelcast IMDG__) for use with company PaaS offering.
+- Multiple DBaaS micro-services (__MongoDB, Postgres 11, Hazelcast IMDG__) which provided an approved selection of containerized database/cache products pre-configured and ready to be dropped into any project on the platform.
  
-- Internal memory-cache interface microservice(__python, snap, ubuntu core__)
+- Microservice to dynamically generate Terraform files (__backend, tfvars, providers, versions__) and HCL from json/yaml/database values allowing the creation/replication of the full azure production account as an ephemeral platform. This also enabled thhe use of terraform to use epehemeral identities in internal pipelines.
 
-- Microservice to dynamically generate Terraform files (__backend, tfvars, providers, versions__) and HCL from json/yaml/database values allowing the creation/replication of the full azure production account as an ephemeral platform.
-
-- Multiple __Terraform modules__ for use with company __IaaC, PaaS, SaaS, and IAM/RBAC__ products/projects:
+- Multiple __Terraform modules__ for use with company __IaaC, PaaS, SaaS, and IAM/RBAC__ products. These modules added or enchanced features of the FedEx Azure cloud platform.
 
     - __Akv2k8s__: end-to-end test and install of __Azure Keyvault to Aure Kubernetes__ Service using both __Managed Identties and Service Principles__ to synchronize __secrects, keys and certificates__ between Azure and Kubernestes using __mutating webhooks__ and __init containers__. Utilized the __Kubernetes Alpha Provider__ to install __CRDs__ required to automate testing.
 

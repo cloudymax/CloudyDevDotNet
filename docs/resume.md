@@ -17,26 +17,30 @@ title: "Max Roby's Resume"
   <div class="card">
 
   <div class="card-header">
-  <h3>Max Roby</h3>
+  <h2>Max Roby</h2>
   </div>
 <b></b>
   <div class="card-body">
           <blockquote>
             I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
+            <br></br>
             Currently, I'm developing <b>Cost-Optimized</b>, <b>Hyperconvered</b>, <b>Ephemeral</b>, compute environments that are <b>Fast</b> and <b>Carbon-Neutral</b>. I'm excited to use <b>Computer-Vision</b>, <b>Machine Learning</b>, <b>Digital-Twins</b>, and <b>Renewable Energy Credits</b> to redefine how we <b>work</b>, <b>play</b>, and <b>collaborate</b> with each other in <b>digital spaces</b>.
             </br>
-            Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.
-          </blockquote>
+            <p>
+            Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p>
+            </blockquote>
     </div>
   </div>
 </div>
 
-
 <center>
 [:fontawesome-solid-file-alt: PDF](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[ :fontawesome-solid-file-alt: DocX](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.docx){ .md-button .md-button--primary }
-<h5> 📫 eMax<a>@</a>CloudyDev<a>.</a>Net</h5>
-<h5>🇳🇱  Amsterdam, NL</h5>
-<h5><a><i class="fa fa-mobile"></i></a>  06<a>.</a>1802<a>.</a>8166</h5>
+</br>
+<emp> 📫 eMax<a>@</a>CloudyDev<a>.</a>Net</emp>
+</br>
+<emp>🇳🇱  Amsterdam, NL</emp>
+</br>
+<emp><a><i class="fa fa-mobile"></i></a>  06<a>.</a>1802<a>.</a>8166</emp>
 </center>
 ### __FedEx Express__
 
@@ -201,7 +205,7 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-          - <b>IaC for virtual training lab systems<b> 
+          1. <b>IaC for virtual training lab systems<b> 
           
             (VMware, VirtualBox, Vagrant, Ubuntu, Windows 7)
 
@@ -245,7 +249,7 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-        - <b>Directed OS migration hardware compatibility testing</b> 
+        1. <b>Directed OS migration hardware compatibility testing</b> 
         
             (Xorg, Xinput, grub, drivers) and certification of point-of-sale hardware and peripherals (servers, terminals,touchscreens, signage)
 
@@ -278,28 +282,60 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-        - Created a new system of Help-Desk analyst KPIs and metrics(SQL, Cisco Agent, BMC Remedy, Excel) which vastly improved clarity of employee performance and reporting granularity.
+        1. <b>Created new Help-Desk analyst KPIs and metrics</b>
+        
+            (SQL, Cisco Agent, BMC Remedy, Excel) 
+          
+            > Vastly improved clarity of employee performance and reporting granularity.
 
 
-        - Designed and built gamified leader-board (Unity3D, C#, SQL, Cisco Agent, BMC Remedy) and training materials to supplement KPIs and metrics.
+        - <b>Gamified leader-board</b> 
+        
+            (Unity3D, C#, SQL, Cisco Agent, BMC Remedy) 
+            
+            > Also delivered training materials to supplement KPI and metrics system driving the leader-board to increase transparency..
 
 
-        - Authored fully-automated and computer-assisted troubleshooting tools(Linux,Java,Bash) for Help-Desk employees to resolve non-technical, call-driving issues identified by leadership as resource intensive(Payroll, Inventory, Reporting, Ideal-usage, Labor)
+        - <b>Automated troubleshooting tools
+        
+            (Linux,Java,Bash) 
+            
+            > Enabled Help-Desk employees to resolve non-technical, call-driving issues identified by leadership as resource intensive(Payroll, Inventory, Reporting, Ideal-usage, Labor)
 
 
-        - Mentored and trained L1 Help-Desk employees on Pizza Hut software & hardware stack(Linux,proprietary software (Java, SQL, bash), point-of-sale hardware, servers, and network equipment) Monitored(Solarwinds), troubleshot, and resolve network issues with external help desks and vendors.
+        - <b>Mentored and trained L1 Help-Desk employees</b> 
+        
+            (Linux,proprietary software (Java, SQL, bash), point-of-sale hardware, servers, and network equipment) 
+            
+        - <b>Alert Monitoring and Response
+        
+            (Solarwinds)
+         
+            > Troubleshot, and resolved network issues with external help desks and vendors.
 
 
-        - Remote management of debian-based point-of-sale hardware (terminals, AIO devices, printers, cash registers, switches, routers) for 4000+ sites.
+        - <b>Remote point-of-sale hardware management
+        
+            (Terminals, AIO devices, printers, cash registers, switches, routers)
+            
+            > 4000+ sites.
 
 
-        - Senior Analyst for RMA/advanced exchange process, lifecycle, and SLA with hardware vendors and service providers
+        - <b>Senior Analyst for RMA/advanced exchange process</b> 
+        
+            > Managed lifecycle, and SLA with hardware vendors and service providers
 
 
-        - Managed network reliability monitoring and vendor interactions for remote sites as part of a team working with SolarWinds alerting and Sonicwall APs.
+        - <b>Managed network reliability monitoring</b> 
+        
+            > For remote sites as part of a team working with SolarWinds alerting and Sonicwall APs.
 
 
-        - Supported and contributed to proprietary business software (Java, Linux, SQL, Windows) and processes (payroll, inventory, cash management, training, scheduling) utilized by managers and employees daily in-stores.
+        - <b>Contributed to proprietary business codebase 
+        
+              (Java, Bash, Linux, SQL, Windows) 
+              
+              > Added features and authored tools for payroll, inventory, cash management, training, scheduling that were utilized by managers and employees daily in-stores.
 
 
 
@@ -309,22 +345,50 @@ I then took over the duties of the former Principal Software Engineer and was ta
 >
 > __2009 - 2019__
 
-Skyrim lighting mod(ENB, Nexus mods)which increased the visual fidelity of the game experience and resolved bug in the default eye-adaptation post-processing effect (OpenGL, C#) implementation on AMD crossfire.
+- Over the years I've worked on many projects outside of my day-job: Pro-bono, hobby, consultation, or on commission. Here's some of my favorites:
+
+    ??? Example "Projects and Accomplishments"
+
+        1. <b>Skyrim lighting mod</b>
+        
+            (ENB, Nexus mods, OpenGL, C#)
+            
+            > Increased the visual fidelity of the game experience and resolved bug in the default eye-adaptation post-processing effect implementation on AMD crossfire.
 
 
-Skyrim free-camera mod (Papyrus) to allow manual camera DoF, lighting, ToD, and smoother movement for video/photo capture of game-play.
+        - <b>Skyrim free-camera mod</b> 
+            
+            (Papyrus) 
+            
+            > Allow manual camera DoF, lighting, ToD, and smoother movement for video/photo capture of game-play.
 
 
-World of Warcraft mod (Lua, WeakAuras) which would allow players to live out their Initial-D drifting dreams by playing euro-beat music and displaying animated speed lines in the UI whenever a speed-boost was detected as active on the player.
+          - <b>World of Warcraft Mod</b> 
+          
+              (Lua, WeakAuras) 
+              
+              > Allow players to live out their Initial-D drifting dreams by playing euro-beat music and displaying animated speed lines in the UI whenever a speed-boost was detected as active on the player.
 
 
-Volumetric reverb and sound occlusions system (Unity3D, C#) based on a talk by David Sirland of Dice and methods used in Battlefield 3 to create realistic positional audio. System captures data about surrounding geometry and sound sources to determine the appropriate level and type of reverb to use as well as realistically occludes sounds based on line of sight, distance, and position.
+          - <b>Volumetric reverb and sound occlusions system</b> 
+          
+              (Unity3D, C#) 
+              
+              > based on a talk by David Sirland of Dice and methods used in Battlefield 3 to create realistic positional audio. System captures data about surrounding geometry and sound sources to determine the appropriate level and type of reverb to use as well as realistically occludes sounds based on line of sight, distance, and position.
 
 
-Spline-based particle animation system(C#, Unity3D) based on multiple GDC talks which combines a guided-generation spline system, scriptableobjects, and animation curve data to rapidly create and iterate on game assets while specifically paying attention to proper use of animation principles(squash, anticipation, timing etc...)
+          - <b>Spline-based particle animation system</b>
+            
+              (C#, Unity3D) 
+                
+              > Based on multiple GDC talks which combines a guided-generation spline system, scriptableobjects, and animation curve data to rapidly create and iterate on game assets while specifically paying attention to proper use of animation principles(squash, anticipation, timing etc...)
 
 
-Input wrapper (C#, Unity3D, DirectInput) which allowed keyboard/game pad control schemes to be altered, created, saved by users at runtime in Unity3D. Provided enhancements such as: device agnostic syntax, per-axis sensitivity and dead-zone configuration, rumble support, ability to track active/inactive inputs, duration of inputs, and combinations/order of concurrent of inputs.
+          - <b>Unity 3d Input wrapper</b> 
+              
+              (C#, Unity3D, DirectInput) 
+                
+              > Allowed keyboard/game pad control schemes to be altered, created, saved by users at runtime in Unity3D. Provided enhancements such as: device agnostic syntax, per-axis sensitivity and dead-zone configuration, rumble support, ability to track active/inactive inputs, duration of inputs, and combinations/order of concurrent of inputs.
 
 
 ### __Kitchen Manager__
@@ -333,10 +397,15 @@ Input wrapper (C#, Unity3D, DirectInput) which allowed keyboard/game pad control
 >
 > __2009 - 2019__
 
-- Morning shift Kitchen Manager and Cook for American sport-bar chain.
-- Managed kitchen and bar staff of 4-7 employees according to demands.
-- Prep, stock, and inventory ordering.
-- Point of Sale and A/V support 
+- As the KitchenManager, oversaw the day-to-day staffing, inventory, prep, and menus for american sports-bar.
+
+    ??? Example "Projects and Accomplishments"
+
+        1. Managed kitchen and bar staff of 4-7 employees according to demands.
+        - Prep, stock, and inventory ordering.
+        - Point of Sale and A/V support 
+        - HPIC Training
+        - ServeSafe Training
 
 
 ### __Nursey Specialist__
@@ -346,7 +415,11 @@ Input wrapper (C#, Unity3D, DirectInput) which allowed keyboard/game pad control
 >
 > __2006 - 2009__
 
-- KY State Nurserymen's Training
-- Forklift and Bobcat operation.
-- Landscaping and consultation
-- Sales associate at Nursery and Garden Center
+- Guided clients through the possible landscaping solutions and products required to complete their gardening and landscaping projects. 
+
+    ??? Example "Projects and Accomplishments"
+         
+         1. KY State Nurserymen's Training
+         - Forklift and Bobcat operation.
+         - Landscaping and consultation
+         - Sales associate at Nursery and Garden Center

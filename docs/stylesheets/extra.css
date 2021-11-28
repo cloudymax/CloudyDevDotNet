@@ -28,25 +28,25 @@
 	--font-size: 20px;
 	--line-height: 20px;
 
-	--title-line-height:  100%;
-	--elipsis-multiplier: 100%;
-	--header1-multiplier: 100%;
-	--header2-multiplier: 150%;
-	--header3-multiplier: 150%;
-	--header4-multiplier: 150%;
-	--link-multiplier: 110%;
-	--emp-multiplier: 100%;
-	--blockquote-multiplier: 100%;
-	--list-multiplier: 110%;
+	--title-line-height:  1;
+	--elipsis-multiplier: 1;
+	--header1-multiplier: 2;
+	--header2-multiplier: 1.5;
+	--header3-multiplier: 1;
+	--header4-multiplier: .5;
+	--link-multiplier: 1.1;
+	--emp-multiplier:  1.1;
+	--blockquote-multiplier: 1;
+	--list-multiplier: 1.1;
 
 	--font-weight-h1:   400;
 	--font-weight-h2:   400;
 	--font-weight-h3:   400;
 	--font-weight-h4:   300;
-	--font-weight-link: 300;
-	--font-weight-text: 300;
+	--font-weight-link: 400;
+	--font-weight-text: 200;
 	--font-weight-emp:  400;
-	--font-weight-list: 400;
+	--font-weight-list: 300;
 
 	--shadow-x-max:       .3;
 	--shadow-y-max:       1;
@@ -356,7 +356,7 @@
 }
 a:active, a:link {
 	color: var(--pop);
-	font-size: var(--link-multiplier)!important;
+	font-size: calc(var(--link-multiplier) * var(--font-size));
 	line-height: var(--title-line-height);
  }
 a:hover {
@@ -365,7 +365,7 @@ a:hover {
  }
 strong, emp {
    color: var(--text);
-   font-size: var(--emp-multiplier)!important;
+   font-size: calc(var(--emp-multiplier) * var(--font-size));
    line-height: var(--title-line-height);
    font-weight: var(--font-weight-emp)!important;
  }
@@ -373,12 +373,12 @@ strong, emp {
   margin-top: 0;
   padding: 0 .6rem;
   color: var(--header-contrast);
-  font-size: var(--link-multiplier)!important;
+  font-size: calc(var(--link-multiplier) * var(--font-size));
   line-height: var(--title-line-height);
 }
 .md-tabs__link {
 	background: var(--transparent);
-	font-size: var(--link-multiplier)!important;
+	font-size: calc(var(--link-multiplier) * var(--font-size));
 	line-height: var(--title-line-height);
 	color: var(--header-contrast);
 	filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--shadow));
@@ -399,7 +399,7 @@ strong, emp {
 
 }
 .md-ellipsis {
-	font-size: var(--elipsis-multiplier);
+	font-size: calc(var(--elipsis-multiplier) * var(--font-size));
 	color: var(--header-contrast);
 }
 .md-nav__link--active {
@@ -410,29 +410,33 @@ h1, h2, h3, h4 {
 	color: var(--primary);
 }
 h1 {
-	font-size: var(--header1-multiplier)!important;
+	font-size: calc(var(--header1-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-h1)!important;
 }
 h2 {
-	font-size: var(--header2-multiplier)!important;
+	font-size: calc(var(--header2-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-h2)!important;
 }
 h3 {
-	font-size: var(--header3-multiplier)!important;
+	font-size: calc(var(--header3-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-h3)!important;
 }
 h4 {
-	font-size: var(--header4-multiplier)!important;
+	font-size: calc(var(--header4-multiplier) * var(--font-size));
+	font-weight: var(--font-weight-h4)!important;
+}
+h5 {
+	font-size: calc(var(--header4-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-h4)!important;
 }
 ol, li {
-	font-size: var(--list-multiplier)!important;
+	font-size: calc(var(--list-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-list)!important;
 	padding: var(--list-padding)!important;
 }
 blockquote {
   color: rgba(var(--text-r), var(--text-g), var(--text-b), 1);
-  font-size: var(--blockquote-multiplier)!important;
+  font-size: calc(var(--font-size) * var(--blockquote-multiplier));
   font-weight: var(--font-weight-text)!important;
 }
 table {
@@ -680,6 +684,9 @@ table {
     color: var(--text);
     padding-left: .6rem;
 }
+.md-typeset{
+	font-size: calc(var(--header2-multiplier) * var(--font-size));
+}
 body {
 	padding: var(--global-padding);
 	font-size: var(--font-size);
@@ -733,8 +740,7 @@ p {
 .card-links {
     text-align: center;
 	font-family: 'Lato', sans-serif;
-	font-size: 24px;
-
+	font-size: calc(var(--link-multiplier) * var(--font-size));
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-bottom: 0%;
@@ -767,7 +773,4 @@ p {
 	align-items: center;
 	overflow: hidden;
 	z-index: -10;
-}
-blockquote  {
-	font-weight: 400!important;
 }

@@ -749,7 +749,9 @@ p {
 	
 }
 .fa-twitter-square, .fa-linkedin-square, .fa-github-square {
-	padding-inline: 1%;
+	padding-inline: 2%;
+	scale: 200%;
+
 }
 .hero-bg {
 	size: inherit;

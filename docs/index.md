@@ -39,7 +39,8 @@ hide:
           </blockquote>
     </div>
     <div class="card-links">
-      <h4><a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a> <a href="https://www.twitter.com/@sudosendtweet"><i class="fa fa-twitter-square"></i></a></h4>
+      <a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a> <a href="https://www.twitter.com/@sudosendtweet"><i class="fa fa-twitter-square"></i></a>
     </div>
+      </br>
   </div>
 </div>

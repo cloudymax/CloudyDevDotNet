@@ -32,8 +32,7 @@ hide:
 
   <div class="card-body">
           <blockquote>
-          I'm a Creative Senior Cloud Architect, DevOps Engineer, and Game Developer based in Amsterdam, Netherlands. 
-          I have over 11 years of experience building automated solutions, infrastructure as code, micro-services and games on windows, linux, android and in the cloud.
+          I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
           This website is where I keep projects I work on for fun and test out new ideas.
           <br></br>
           You can find the projects that power this site and create the cool gifs in the background at my github. Feel free to connect on Linkedin, or share some memes on twitter ^-^

@@ -30,14 +30,14 @@
 
 	--title-line-height:  100%;
 	--elipsis-multiplier: 100%;
-	--header1-multiplier: 200%;
-	--header2-multiplier: 200%;
-	--header3-multiplier: 200%;
-	--header4-multiplier: 200%;
+	--header1-multiplier: 100%;
+	--header2-multiplier: 150%;
+	--header3-multiplier: 150%;
+	--header4-multiplier: 150%;
 	--link-multiplier: 110%;
 	--emp-multiplier: 100%;
 	--blockquote-multiplier: 100%;
-	--list-multiplier: 130%;
+	--list-multiplier: 110%;
 
 	--font-weight-h1:   400;
 	--font-weight-h2:   400;

@@ -17,7 +17,7 @@ title: "Max Roby's Resume"
   <div class="card">
 
   <div class="card-header">
-  <h2>Max Roby</h2>
+  <h3>Max Roby</h3>
   </div>
 <b></b>
   <div class="card-body">
@@ -29,6 +29,7 @@ title: "Max Roby's Resume"
             <p>
             Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p>
             </blockquote>
+            </br>
     </div>
   </div>
 </div>

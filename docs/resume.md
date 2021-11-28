@@ -2,8 +2,6 @@
 title: "Max Roby's Resume"
 ---
 
-[Download PDF]('images/resumes/Max Roby Resume.pdf'){ .md-button }
-
 
 <head>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,15 +28,18 @@ title: "Max Roby's Resume"
             <br></br>
             Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.
           </blockquote>
-    </div>
-    <div class="card-links">
-        <h6> 📫 eMax<a>@</a>CloudyDev<a>.</a>Net</h6>
-        <h6>🇳🇱  Amsterdam, NL</h6>
-        <h6><a><i class="fa fa-mobile"></i></a>  06<a>.</a>1802<a>.</a>8166</h6>
+          <br></br>
     </div>
   </div>
 </div>
 
+
+<center>
+[:fontawesome-solid-file-alt: PDF](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[ :fontawesome-solid-file-alt: DocX](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.docx){ .md-button .md-button--primary }
+<h5> 📫 eMax<a>@</a>CloudyDev<a>.</a>Net</h5>
+<h5>🇳🇱  Amsterdam, NL</h5>
+<h5><a><i class="fa fa-mobile"></i></a>  06<a>.</a>1802<a>.</a>8166</h5>
+</center>
 ### __FedEx Express__
 
 > Senior Architect

@@ -387,6 +387,9 @@ strong, emp {
 	color: var(--text)!important;
 	font-weight: 300;
 }
+.md-button {
+	scale: 70%;
+}
 .md-nav__title {
 	background: var(--header)!important;
 	color: var(--header-contrast)!important;

@@ -5,6 +5,26 @@ hide:
   - navigation
 ---
 
+<div class="wrapper">
+  <div class="one">One</div>
+  <div class="two">Two</div>
+  <div class="three">Three</div>
+  <div class="four">Four</div>
+  <div class="five">Five</div>
+  <div class="six">Six</div>
+  <div class="seven">Seven</div>
+  <div class="eight">Eight</div>
+  <div class="nine">Nine</div>
+</div>
+
+
+<html>
+<div id=hero>
+  <div class="hero-bg">
+    <video playsinline autoplay muted id="video-bg" class="video-bg">
+    </video>
+  </div>
+</div>
 
 <head>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,13 +36,6 @@ hide:
     </style> 
 </head>
  
-<div id=hero>
-  <div class="hero-bg">
-    <video playsinline autoplay muted id="video-bg" class="video-bg">
-    </video>
-  </div>
-</div>
-
 <div class="card-container">
   <div class="card">
 
@@ -44,3 +57,4 @@ hide:
       </br>
   </div>
 </div>
+</html>

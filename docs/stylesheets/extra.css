@@ -753,26 +753,17 @@ p {
 	scale: 200%;
 
 }
-.hero-bg {
-	size: inherit;
-	position: relative;
-	scale: 400%;
-	margin-top: 0;
-	height: -100px;
-	z-index: -1;
-}
-#hero {
-	position: absolute;
-	min-width: 100%;
+.video-bg {
 	min-height: 100%;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	min-width: 110%;
+}
+.hero-bg {
+	position: absolute;
+	z-index: -1;
+	left: 0%;
+	top: -5%;
+	bottom: 0%;
+	min-height: 100vh;
+	min-width: 100vw;
 	overflow: hidden;
-	z-index: -10;
 }

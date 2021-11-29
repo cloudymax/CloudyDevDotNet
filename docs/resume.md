@@ -18,17 +18,21 @@ title: "Max Roby's Resume"
 
   <div class="card-header">
   <h3>Max Roby</h3>
+  <center>
+  <p>Amsterdam, NL</br>
+  eMax@CloudyDev.Net</p>
+</center>
   </div>
 <b></b>
   <div class="card-body">
-          <blockquote>
+          <p>
             I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
             <br></br>
             Currently, I'm developing <b>Cost-Optimized</b>, <b>Hyperconvered</b>, <b>Ephemeral</b>, compute environments that are <b>Fast</b> and <b>Carbon-Neutral</b>. I'm excited to use <b>Computer-Vision</b>, <b>Machine Learning</b>, <b>Digital-Twins</b>, and <b>Renewable Energy Credits</b> to redefine how we <b>work</b>, <b>play</b>, and <b>collaborate</b> with each other in <b>digital spaces</b>.
             </br>
             <p>
             Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p>
-            </blockquote>
+            </p>
             </br>
     </div>
   </div>
@@ -36,13 +40,8 @@ title: "Max Roby's Resume"
 
 <center>
 [:fontawesome-solid-file-alt: PDF](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[ :fontawesome-solid-file-alt: DocX](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.docx){ .md-button .md-button--primary }
-</br>
-<emp> 📫 eMax<a>@</a>CloudyDev<a>.</a>Net</emp>
-</br>
-<emp>🇳🇱  Amsterdam, NL</emp>
-</br>
-<emp><a><i class="fa fa-mobile"></i></a>  06<a>.</a>1802<a>.</a>8166</emp>
 </center>
+
 ### __FedEx Express__
 
 > Senior Architect

@@ -19,8 +19,8 @@ title: "Max Roby's Resume"
   <div class="card-header">
   <h3>Max Roby</h3>
   <center>
-  <p>Amsterdam, NL</br>
-  eMax@CloudyDev.Net</p>
+  <p><b>Amsterdam, NL</br>
+  eMax@CloudyDev.Net</b></p>
 </center>
   </div>
 <b></b>

@@ -208,9 +208,9 @@
 }
 [data-md-color-scheme="max-dark"]  {
 	--bg-alpha: 1;
-	--bg-r: 10;
-	--bg-g: 10;
-	--bg-b: 10;
+	--bg-r: 20;
+	--bg-g: 20;
+	--bg-b: 20;
 	--bg: rgba(var(--bg-r), var(--bg-g), var(--bg-b), var(--bg-alpha));
 
 	--gradient-color1:   rgba(16, 10, 30, 1);
@@ -239,7 +239,7 @@
 	--header-contrast: rgba(var(--header-contrast-r), var(--header-contrast-g), var(--header-contrast-b), var(--header-contrast-alpha));
 	--header-contrast-brightness: 1;
 
-	--card-bg: rgba(10, 10, 10, .84);
+	--card-bg: rgba(30, 30, 30, .84);
 
 	--code-bg-alpha: .85;
 	--code-bg-r: 11;

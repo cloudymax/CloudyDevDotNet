@@ -42,7 +42,7 @@
 	--font-weight-h1:   400;
 	--font-weight-h2:   400;
 	--font-weight-h3:   400;
-	--font-weight-h4:   300;
+	--font-weight-h4:   400;
 	--font-weight-link: 400;
 	--font-weight-text: 200;
 	--font-weight-emp:  400;
@@ -285,7 +285,7 @@
 	/* search bar cursor and active text */
 	--md-default-fg-color: var(--text);
 	/* h1 headers and >'s, link highlights, TOC nav highlight, hover1 */
-	--md-default-fg-color--light: var(--primary);
+	--md-default-fg-color--light: var(--header-contrast);
 	/* scroll bars and markers un-hovered */
 	--md-default-fg-color--lighter: rgba(var(--pop-r), var(--pop-g), var(--pop-b), 1);
 	/* horizontal lines and icons unhovered, search header background */
@@ -355,12 +355,12 @@
 	--md-admonition-bg-color: var(--code-bg);
 }
 a:active, a:link {
-	color: var(--pop);
+	color: var(--text);
 	font-size: calc(var(--link-multiplier) * var(--font-size));
 	line-height: var(--title-line-height);
  }
 a:hover {
-	color: var(--pop);
+	color: var(--text);
 	filter: drop-shadow(var(--shadow-x) var(--shadow-y) 5px var(--pop));
  }
 strong, emp {

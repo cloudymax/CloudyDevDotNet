@@ -92,10 +92,10 @@
 
 	--card-bg: rgba(250, 250, 250, .7);
 
-	--code-bg-alpha: .4;
-	--code-bg-r: 60;
-	--code-bg-g: 60;
-	--code-bg-b: 60;
+	--code-bg-alpha: .3;
+	--code-bg-r: 101;
+	--code-bg-g: 101;
+	--code-bg-b: 101;
 	--code-bg: rgba(var(--code-bg-r), var(--code-bg-g), var(--code-bg-b), var(--code-bg-alpha));
 
     --primary-alpha: 1;
@@ -160,7 +160,7 @@
     /* search bar initial text */
     --md-primary-bg-color--light: var(--header-contrast);
     /* Hover color2 + search syntax highlight */
-    --md-accent-fg-color: rgba(var(--pop-r), var(--pop-g), var(--pop-b), .8);
+    --md-accent-fg-color: var(--header);
     /* search result highlight */
     --md-accent-fg-color--transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), .2);
     /*?*/
@@ -173,16 +173,16 @@
 	--md-code-bg-color: var(--code-bg);
 	--md-code-hl-color: rgb(207, 62, 200);
 	--md-code-hl-number-color: rgb(252, 17, 173);
-    --md-code-hl-special-color: hsla(340, 83%, 47%, 1);
-    --md-code-hl-function-color: hsla(291, 45%, 50%, 1);
-    --md-code-hl-constant-color: rgb(89, 214, 245);
-    --md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
-    --md-code-hl-string-color: rgb(250, 175, 104);
-    --md-code-hl-name-color: rgb(244, 243, 247);
-    --md-code-hl-operator-color: rgb(250, 167, 111);
-    --md-code-hl-punctuation-color: rgb(250, 69, 69);
-    --md-code-hl-comment-color: rgba(10,220,100,1);
-    --md-code-hl-generic-color: rgba(222,222,222,1);
+	--md-code-hl-special-color: hsla(340, 83%, 47%, 1);
+	--md-code-hl-function-color: hsla(291, 45%, 50%, 1);
+	--md-code-hl-constant-color: rgb(89, 214, 245);
+	--md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
+	--md-code-hl-string-color: rgb(250, 175, 104);
+	--md-code-hl-name-color: rgb(244, 243, 247);
+	--md-code-hl-operator-color: rgb(250, 167, 111);
+	--md-code-hl-punctuation-color: rgb(250, 69, 69);
+	--md-code-hl-comment-color: rgba(10,220,100,1);
+	--md-code-hl-generic-color: rgba(222,222,222,1);
     --md-code-hl-variable-color: var(--header-contrast);
     /* Main Font Color */
 	--md-typeset-color: var(--text);
@@ -241,10 +241,10 @@
 
 	--card-bg: rgba(30, 30, 30, .84);
 
-	--code-bg-alpha: .85;
-	--code-bg-r: 11;
-	--code-bg-g: 11;
-	--code-bg-b: 11;
+	--code-bg-alpha: .4;
+	--code-bg-r: 101;
+	--code-bg-g: 101;
+	--code-bg-b: 101;
 	--code-bg: rgba(var(--code-bg-r), var(--code-bg-g), var(--code-bg-b), var(--code-bg-alpha));
 
     --primary-alpha: 1;
@@ -285,7 +285,7 @@
 	/* search bar cursor and active text */
 	--md-default-fg-color: var(--text);
 	/* h1 headers and >'s, link highlights, TOC nav highlight, hover1 */
-	--md-default-fg-color--light: var(--header-contrast);
+	--md-default-fg-color--light: var(--pop);
 	/* scroll bars and markers un-hovered */
 	--md-default-fg-color--lighter: rgba(var(--pop-r), var(--pop-g), var(--pop-b), 1);
 	/* horizontal lines and icons unhovered, search header background */
@@ -331,7 +331,7 @@
 	--md-code-hl-punctuation-color: rgb(250, 69, 69);
 	--md-code-hl-comment-color: rgba(10,220,100,1);
 	--md-code-hl-generic-color: rgba(222,222,222,1);
-	--md-code-hl-variable-color: var(--pop);
+	--md-code-hl-variable-color: var(--text);
 	/* Main Font Color */
 	--md-typeset-color: var(--text);
 	--md-typeset-a-color: var(--pop);
@@ -374,18 +374,20 @@ strong, emp {
   padding: 0 .6rem;
   color: var(--header-contrast);
   font-size: calc(var(--link-multiplier) * var(--font-size));
+  font-weight: var(--font-weight-link);
   line-height: var(--title-line-height);
 }
 .md-tabs__link {
 	background: var(--transparent);
 	font-size: calc(var(--link-multiplier) * var(--font-size));
+	font-weight: var(--font-weight-link);
 	line-height: var(--title-line-height);
 	color: var(--header-contrast);
 	filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--shadow));
 }
 .md-nav__link, a.md-button:active {
 	color: var(--text)!important;
-	font-weight: 300;
+	font-weight: var(--font-weight-link);
 }
 .md-button {
 	scale: 70%;
@@ -400,6 +402,7 @@ strong, emp {
 }
 .md-ellipsis {
 	font-size: calc(var(--elipsis-multiplier) * var(--font-size));
+	font-weight: var(--font-weight-link);
 	color: var(--header-contrast);
 }
 .md-nav__link--active {
@@ -442,7 +445,7 @@ blockquote {
 table {
 	border-collapse: collapse;
 	border-color: var(--pop);
-	background-color: var(--bg);
+	background-color: var(--code-bg)!important;
 }
 .wrap {
 	width: 200px;
@@ -751,7 +754,7 @@ p {
 .fa-twitter-square, .fa-linkedin-square, .fa-github-square {
 	padding-inline: 2%;
 	scale: 200%;
-
+	color: var(--pop);
 }
 .video-bg {
 	min-height: 100%;

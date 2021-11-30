@@ -13,18 +13,20 @@ title: "Max Roby's Resume"
      </style> 
 </head>
 
+  <center>
+  <h3>Max Roby</h3>
+  <p><b>Amsterdam, NL</br>
+  eMax@CloudyDev.Net</b></br>
+  <b>06.1802.8166</b></p>
+</center>
 <div class="card-container">
   <div class="card">
 
   <div class="card-header">
-  <h3>Max Roby</h3>
-  <center>
-  <p><b>Amsterdam, NL</br>
-  eMax@CloudyDev.Net</b></p>
-</center>
   </div>
 <b></b>
   <div class="card-body">
+  </br>
           <p>
             I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
             <br></br>

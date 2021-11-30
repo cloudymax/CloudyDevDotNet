@@ -4,7 +4,7 @@ This project will manage the lifecycle of a static website hosted in an azure st
 
 ## 1. Creating the Azure Resources
 
-I have anoother project that will do this in terraform but I dont have the time to hook it up right now since its still aplpha.
+I have another project that will do this in terraform but I don't have the time to hook it up right now since its still alpha.
 
 
 ## 2. Install the Azure CLI

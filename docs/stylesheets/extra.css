@@ -39,14 +39,14 @@
 	--blockquote-multiplier: 1;
 	--list-multiplier: 1.1;
 
-	--font-weight-h1:   400;
-	--font-weight-h2:   400;
-	--font-weight-h3:   400;
-	--font-weight-h4:   400;
-	--font-weight-link: 400;
-	--font-weight-text: 200;
-	--font-weight-emp:  400;
-	--font-weight-list: 300;
+	--font-weight-h1:   600;
+	--font-weight-h2:   600;
+	--font-weight-h3:   500;
+	--font-weight-h4:   500;
+	--font-weight-link: 500;
+	--font-weight-text: 400;
+	--font-weight-emp:  500;
+	--font-weight-list: 400;
 
 	--shadow-x-max:       .3;
 	--shadow-y-max:       1;

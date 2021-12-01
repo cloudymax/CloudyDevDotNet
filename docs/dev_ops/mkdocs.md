@@ -1,54 +1,52 @@
-# Tanzu mkDocs
-
-  > Moving from __Just The Docs__ to __mkDocs__ because of constraints on color/formatting, input options, and hosting images. Using MkDocs w/ a material theme. This builds a static site which we then serve with __flask__.
-
-Install and create a project:
-
-```zsh
-# Install:
-  pip install mkdocs
-  pip install mkdocs-material
+# Creating documentation websites with mkDocs
 
 
-# Create a new project
- mkdocs new my-project
+1. Install and create a project:
 
-# navigate to the project directory
-cd my-project
+    ```zsh
+    # Install:
+      pip install mkdocs
+      pip install mkdocs-material
 
-# add the documentation builds to gitignore
-echo "app/site/" >> .gitignore
-```
 
-Add the material theme to `mkdocs.tml`
+    # Create a new project
+     mkdocs new my-project
 
-```yaml
-site_name: My Docs
-theme:
-    name: material
-```
+    # navigate to the project directory
+    cd my-project
 
-Serve the page to localhost:
+    # add the documentation builds to gitignore
+    echo "app/site/" >> .gitignore
+    ```
 
-```zsh
-mkdocs serve
-```
+2. Add the material theme to `mkdocs.tml`
 
-View the site at:
+    ```yaml
+    site_name: My Docs
+    theme:
+        name: material
+    ```
 
-- [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+3. Serve the page to localhost:
 
-___
+    ```zsh
+    mkdocs serve
+    ```
 
-Build and deploy the site:
+    View the site at:
 
-```zsh
+    - [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-cd tanzu-mkdocs
 
-# first time
-bash -x bad-deploy.sh first_publish
+4. Build and deploy the site:
 
-# to update
-bash -x bad-deploy.sh update_site
-```
+    ```zsh
+
+    cd mkdocs
+
+    # first time
+    bash -x bad-deploy.sh first_publish
+
+    # to update
+    bash -x bad-deploy.sh update_site
+    ```

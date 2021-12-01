@@ -25,8 +25,8 @@
 	--letter-spacing-f1: 1px;
 	--letter-spacing-f2: 1px;
 
-	--font-size: 20px;
-	--line-height: 24px;
+	--font-size: 16px;
+	--line-height: 20px;
 
 	--title-line-height:  1;
 	--elipsis-multiplier: 1;
@@ -440,8 +440,6 @@ ol, li {
 	font-size: calc(var(--list-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-list)!important;
 	padding: var(--list-padding)!important;
-	list-style-type: square;
-	list-style-position: outside;
 }
 blockquote {
   color: rgba(var(--text-r), var(--text-g), var(--text-b), 1);
@@ -780,6 +778,7 @@ p {
     min-height: 100%;
     min-width: 100%;
 	overflow: hidden;
+	z-index: -1;
 }
 .md-typeset .example > summary::before {
     background-color: var(--header-contrast);

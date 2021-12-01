@@ -27,7 +27,7 @@ This program uses selenium and a headless firefox browser to automate the proces
 
 ## Program dependencies
 
-### Install the gekko web driver
+- Install the gekko web driver
 
 latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
 
@@ -54,7 +54,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     geckodriver -V
     ```
 
-1. Install selenium
+- Install selenium
 
     ```bash
     pip install selenium
@@ -63,7 +63,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     #export PATH=$PATH:/home/max/.local/bin
     ```
 
-2. install firefox
+- install firefox
 
     ```bash
     # I already have installed here on my mac
@@ -80,7 +80,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     
         notes, not code - it probably wont run right now
 
-1. install Docker
+- install Docker
 
     ```zsh
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
@@ -90,7 +90,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     sudo apt-get update
     ```
 
-2. install pip
+- install pip
 
     ```zsh
 
@@ -98,7 +98,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
 
     ```
 
-3. install brew
+- install brew
 
     ```zsh
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -106,7 +106,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     ```
 
-4. install Unity Hub, and set env vars
+- install Unity Hub, and set env vars
 
     - Download url <a>https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage</a>
 
@@ -121,7 +121,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     ```
 
 
-5. generate liscence file
+- generate liscence file
 
     ```zsh
     cd "${APPDIR}"
@@ -135,7 +135,7 @@ latest build url <a>https://github.com/mozilla/geckodriver/releases/latest</a>
     ```
 
 
-6. Desktop Icons
+- Desktop Icons
 
 - Create a .desktop file
 

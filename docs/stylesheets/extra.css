@@ -25,19 +25,19 @@
 	--letter-spacing-f1: 1px;
 	--letter-spacing-f2: 1px;
 
-	--font-size: 16px;
-	--line-height: 20px;
+	--font-size: 20px;
+	--line-height: 24px;
 
 	--title-line-height:  1;
 	--elipsis-multiplier: 1;
-	--header1-multiplier: 2;
-	--header2-multiplier: 1.5;
-	--header3-multiplier: 1;
-	--header4-multiplier: .5;
+	--header1-multiplier: 1.3;
+	--header2-multiplier: 1.2;
+	--header3-multiplier: 1.1;
+	--header4-multiplier: 1;
 	--link-multiplier: 1.1;
 	--emp-multiplier:  1.1;
 	--blockquote-multiplier: 1;
-	--list-multiplier: 1.1;
+	--list-multiplier: 1.2;
 
 	--font-weight-h1:   600;
 	--font-weight-h2:   600;
@@ -208,9 +208,9 @@
 }
 [data-md-color-scheme="max-dark"]  {
 	--bg-alpha: 1;
-	--bg-r: 38;
-	--bg-g: 38;
-	--bg-b: 38;
+	--bg-r: 20;
+	--bg-g: 20;
+	--bg-b: 20;
 	--bg: rgba(var(--bg-r), var(--bg-g), var(--bg-b), var(--bg-alpha));
 
 	--gradient-color1:   rgba(16, 10, 30, 1);
@@ -241,10 +241,10 @@
 
 	--card-bg: rgba(60, 60, 60, .55);
 
-	--code-bg-alpha: .4;
-	--code-bg-r: 101;
-	--code-bg-g: 101;
-	--code-bg-b: 101;
+	--code-bg-alpha: .6;
+	--code-bg-r: 80;
+	--code-bg-g: 80;
+	--code-bg-b: 80;
 	--code-bg: rgba(var(--code-bg-r), var(--code-bg-g), var(--code-bg-b), var(--code-bg-alpha));
 
     --primary-alpha: 1;
@@ -440,6 +440,8 @@ ol, li {
 	font-size: calc(var(--list-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-list)!important;
 	padding: var(--list-padding)!important;
+	list-style-type: square;
+	list-style-position: outside;
 }
 blockquote {
   color: rgba(var(--text-r), var(--text-g), var(--text-b), 1);

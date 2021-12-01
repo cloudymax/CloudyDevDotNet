@@ -68,6 +68,7 @@ nav:
         - Hazelcast: dev_ops/hazelcast.md
         - MongoDB: dev_ops/mongodb.md
         - GCP Sidecar: dev_ops/gcp-sidecar.md
+        - Prisma: dev_ops/prisma.md
       - Documentation:
         - Mkdocs: dev_ops/mkdocs.md
         - Just The Docs: dev_ops/justthedocs.md
@@ -76,3 +77,4 @@ nav:
       - Splines: game_dev/splines.md
       - Virtual Office: game_dev/virtual-office.md
       - Word-Art Generator: game_dev/word-art.md
+      - Unity Authorizer: game_dev/unity-auth.md

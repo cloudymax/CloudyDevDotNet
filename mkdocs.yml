@@ -74,3 +74,4 @@ nav:
       - FireBase: dev_ops/firebase.md
     - GameDev Notes: 
       - Splines: game_dev/splines.md
+      - Virtual Office: game_dev/virtual-office.md

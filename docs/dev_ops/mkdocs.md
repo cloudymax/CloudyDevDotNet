@@ -1,5 +1,7 @@
 # Creating documentation websites with mkDocs
 
+Mkdocs is IMO a better choice than JustTheDocs as it has better CSS and Javascript support allowing it to integrate with main-line front-end projects (bootstrap, material, tailwind) quite easily
+
 
 1. Install and create a project:
 

@@ -75,3 +75,4 @@ nav:
     - GameDev Notes: 
       - Splines: game_dev/splines.md
       - Virtual Office: game_dev/virtual-office.md
+      - Word-Art Generator: game_dev/word-art.md

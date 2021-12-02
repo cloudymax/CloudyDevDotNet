@@ -1,6 +1,7 @@
-# Virtual Machines w/ cloud-init
+# Cloud-init
 
-[Multipass launch command docs](https://multipass.run/docs/launch-command)
+Cloud-init is the MUCH needed replacement for Ubuntu Pre-Seed.
+Ubuntu pre-seed was the way to automate the initial setup of ubuntu images and it was literally the worst. CLoud-init replaces it with a system integrated into the Ubuntu (and other linux distro) boot process directly (similar to old-timey hacking on rc.local but better). It uses YAML and has great documentation. 10/10
 
 [Cloud Init Docs and Examples](https://cloudinit.readthedocs.io/en/latest/topics/examples.html)
 
@@ -36,6 +37,8 @@ phone_home:
 
 
 ## Creating a multipass VM using cloud init
+
+- [Multipass launch command docs](https://multipass.run/docs/launch-command)
 
 ```bash
 export FORMAT="yaml" \

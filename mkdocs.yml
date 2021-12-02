@@ -64,11 +64,16 @@ nav:
     - DevOps Notes:
       - Virtualization: 
         - Cloud-init: dev_ops/README.md
+        - Multipass: dev_ops/multipass.md
+        - Firecracker: dev_ops/firecracker.md
+        - Qemu: dev_ops/qemu.md
+        - Virtualbox: dev_ops/virtualbox.md
       - Databases:
         - Hazelcast: dev_ops/hazelcast.md
         - MongoDB: dev_ops/mongodb.md
         - GCP Sidecar: dev_ops/gcp-sidecar.md
         - Prisma: dev_ops/prisma.md
+        - Glusterfs: dev_ops/glusterfs.md
       - Documentation:
         - Mkdocs: dev_ops/mkdocs.md
         - Just The Docs: dev_ops/justthedocs.md

@@ -1,5 +1,7 @@
 # GCP side car proxy
 
+Accessing SQL instances in GCP requires the use of a sidecar proxy
+
 ```dockerfile
 #Use the official image as a parent image.
 FROM google/cloud-sdk:latest

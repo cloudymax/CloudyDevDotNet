@@ -33,12 +33,53 @@ Inspired by this artists video-essay:
         Special thanks to @FreyaHolmer's 2015 Unite presentation on the subject for being a fantastic primer.
     
 
-## Editors and gizmos:
+## Examples
 
 
-<div class="card">
-<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/FemaleFaithfulBorderterrier' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+1. "Justice rains from above..."
+
+<figure markdown> <!--  -->
+    <video playsinline autoplay loop muted src="https://thumbs.gfycat.com/FemaleFaithfulBorderterrier-mobile.mp4">
+    </video>
+  <figcaption>Recreating Pharah from Overwatch's Ultimate using random spline reflection</figcaption>
+</figure>
+
+2. loopy loops
+
+<figure markdown> <!--  -->
+    <video playsinline autoplay loop muted src="https://thumbs.gfycat.com/ThoroughSeriousIchidna-mobile.mp4">
+    </video>
+  <figcaption>object showing the "orbit" option to rotate around the spline path, then switching to a direct flight path, then adding a status effect to the target</figcaption>
+</figure>
+
+
+2. Editor and Game views
+
+<figure markdown> <!--  -->
+    <video playsinline autoplay loop muted src="https://thumbs.gfycat.com/HollowMajesticArmadillo-mobile.mp4">
+    </video>
+  <figcaption>Switching between the game and Editor views while an animation plays. This shows the custom editor gizmos created to help customize spline paths and animations</figcaption>
+</figure>
+
 </div>
-<div class="card">
-<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/HollowMajesticArmadillo' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
-</div>
+
+# Custom Editors
+
+
+1. Spline Manager
+
+    ??? Note
+    
+        ![Dummy image](../images/unity/editors-code-post/spline_manager.PNG)
+
+2. Spline Profile
+
+    ??? Note
+
+        ![Dummy image](../images/unity/editors-code-post/spline_profile_viewer.PNG)
+
+3. Editor Gizmos
+
+    ??? Note
+
+        ![Dummy image](../images/unity/editors-code-post/editor_view.PNG)

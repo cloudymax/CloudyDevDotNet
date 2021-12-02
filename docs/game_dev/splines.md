@@ -61,24 +61,19 @@ Inspired by this artists video-essay:
   <figcaption>Switching between the game and Editor views while an animation plays. This shows the custom editor gizmos created to help customize spline paths and animations</figcaption>
 </figure>
 
-</div>
-
-# Custom Editors
-
-
-1. Spline Manager
+- Spline Manager
 
     ??? Note
     
         ![Dummy image](../images/unity/editors-code-post/spline_manager.PNG)
 
-2. Spline Profile
+- Spline Profile
 
     ??? Note
 
         ![Dummy image](../images/unity/editors-code-post/spline_profile_viewer.PNG)
 
-3. Editor Gizmos
+- Editor Gizmos
 
     ??? Note
 

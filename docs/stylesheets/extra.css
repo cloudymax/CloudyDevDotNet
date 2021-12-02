@@ -386,8 +386,9 @@ strong, emp {
 	filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--shadow));
 }
 .md-nav__link, a.md-button:active {
-	color: var(--text)!important;
+	color: var(--header-contrast)!important;
 	font-weight: var(--font-weight-link);
+	filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--shadow));
 }
 .md-button {
 	scale: 70%;
@@ -399,6 +400,9 @@ strong, emp {
 .md-nav__title {
 	background: var(--header)!important;
 	color: var(--header-contrast)!important;
+}
+.md-nav__list, .md-nav, .md-nav--primary, .md-nav--lifted, .md-nav--integrated{
+	background: var(--header)!important;
 }
 .highlight {
 	background: rgba(0,0,0,1);

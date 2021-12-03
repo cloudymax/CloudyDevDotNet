@@ -398,26 +398,49 @@ I then took over the duties of the former Principal Software Engineer and was ta
 >
 > __2006 - 2016__
 
+- As a Technologist, Composer, and Musician, I performed and recorded with multiple musical acts in the Louisville area during the late 2000's.
 
-- Music Composition and Production using various Digital Audio Workstation software (Ableton Live, Fruity Loops Studio, Reason)
+    ??? Example "Projects and Accomplishments"
 
-- Music Composition and Production using various Digital Audio Workstation software (Ableton Live, Fruity Loops Studio, Reason)
+        - <b>Music Composition and Production</b> 
 
-- Studio design, mixing student (Bizianes Music)
+            (Ableton Live, Fruity Loops Studio, Reason)
 
-- Formal Education at Bellarmine University in Music Technology and Arts Administration
+            > Used Digital Audio Workstation software, VSTs, audio interfaces and a host of other equipment to record, level and mix client performances in live or studio environments.
 
-- Live and Studio Performance (Guitar, Bass, Percussion)
+        - <b>Studio design, mixing</b> 
 
-- Live Sound and Live Recording for small and medium sized venues
+            Student (Bizianes Music)
 
-- Taste of Chaos Tour (2009), and Brewery Thunderdome (2008) appearances.
+            > Learned studio construction and operation at Biazianes Music Studio as part of Music Technology studies.
 
-- Wolf-Howl Award (Dragon’s Eye Productions - Furcadia) for best original sound design
+        - <b>Live and Studio Performance</b> 
 
-- Sound Design (Facebook Slots - Cat’s Eye Productions)
-Reddit.com/r/GameAudio community sound-design challenge organizer
+            (Guitar, Bass, Percussion)
 
+            > Performed and recorded with multiple acts in the Louisville, KY area.
+
+        - <b>Live Sound and Live Recording</b> 
+
+            > Provided equipment setup and recording services for local musical and cultural events in Louisville, Ky as a part of student and professional organizations.
+
+        - <b>Taste of Chaos Tour and Brewery Thunderdome appearances</b> 
+
+            (2009 - AFTS - Guitarist/Composer)
+
+        - <b>Wolf-Howl Award</b> 
+
+            "Best Original Sound Design" 
+
+            > (Dragon’s Eye Productions - Furcadia) [Listen on Soundcloud](https://soundcloud.com/deserializeme/halloween-rpg-music)
+
+        - <b>Sound Design and Composition</b> 
+
+            (Facebook Slots - Cat’s Eye Productions) [Listen on Soundcloud](https://soundcloud.com/deserializeme/freespin)
+
+        - <b>Reddit.com/r/GameAudio</b> 
+
+            community sound-design challenge organizer
 
 
 ### __Kitchen Manager__

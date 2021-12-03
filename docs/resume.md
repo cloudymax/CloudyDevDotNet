@@ -392,6 +392,33 @@ I then took over the duties of the former Principal Software Engineer and was ta
                 
               > Allowed keyboard/game pad control schemes to be altered, created, saved by users at runtime in Unity3D. Provided enhancements such as: device agnostic syntax, per-axis sensitivity and dead-zone configuration, rumble support, ability to track active/inactive inputs, duration of inputs, and combinations/order of concurrent of inputs.
 
+### __Music Technologist__ 
+
+> Louisville Ky
+>
+> __2006 - 2016__
+
+
+- Music Composition and Production using various Digital Audio Workstation software (Ableton Live, Fruity Loops Studio, Reason)
+
+- Music Composition and Production using various Digital Audio Workstation software (Ableton Live, Fruity Loops Studio, Reason)
+
+- Studio design, mixing student (Bizianes Music)
+
+- Formal Education at Bellarmine University in Music Technology and Arts Administration
+
+- Live and Studio Performance (Guitar, Bass, Percussion)
+
+- Live Sound and Live Recording for small and medium sized venues
+
+- Taste of Chaos Tour (2009), and Brewery Thunderdome (2008) appearances.
+
+- Wolf-Howl Award (Dragon’s Eye Productions - Furcadia) for best original sound design
+
+- Sound Design (Facebook Slots - Cat’s Eye Productions)
+Reddit.com/r/GameAudio community sound-design challenge organizer
+
+
 
 ### __Kitchen Manager__
 

@@ -3,7 +3,7 @@
 - A Fun project to generate custom Zoom video, check it out [here](https://github.com/cloudymax/Unity-References/tree/main/ZoomBackgroundMaker).
 
 <figure markdown> <!--  -->
-    <video playsinline autoplay muted src="https://thumbs.gfycat.com/SardonicGlaringHorsemouse-mobile.mp4">
+    <video autoplay loop muted src="https://thumbs.gfycat.com/SardonicGlaringHorsemouse-mobile.mp4">
     </video>
   <figcaption>Setting up a scene</figcaption>
 </figure>
@@ -21,13 +21,13 @@
 - fun video texture integrations and mood items like bloom and flicker
 
 <figure markdown> <!--  -->
-    <video playsinline autoplay muted src="https://thumbs.gfycat.com/HorribleUnderstatedIbizanhound-mobile.mp4">
+    <video autoplay loop muted src="https://thumbs.gfycat.com/HorribleUnderstatedIbizanhound-mobile.mp4">
     </video>
   <figcaption>Physics and Lighting tests</figcaption>
 </figure>
 
 <figure markdown> <!--  -->
-    <video playsinline autoplay muted src="https://thumbs.gfycat.com/BrokenDeadJoey-mobile.mp4">
+    <video autoplay loop muted src="https://thumbs.gfycat.com/BrokenDeadJoey-mobile.mp4">
     </video>
   <figcaption>Halloween at STRIVR</figcaption>
 </figure>

@@ -39,7 +39,7 @@ Inspired by this artists video-essay:
 1. "Justice rains from above..."
 
 <figure markdown> <!--  -->
-    <video playsinline autoplay loop muted src="https://thumbs.gfycat.com/FemaleFaithfulBorderterrier-mobile.mp4">
+    <video autoplay loop muted src="https://thumbs.gfycat.com/FemaleFaithfulBorderterrier-mobile.mp4">
     </video>
   <figcaption>Recreating Pharah from Overwatch's Ultimate using random spline reflection</figcaption>
 </figure>
@@ -47,7 +47,7 @@ Inspired by this artists video-essay:
 2. loopy loops
 
 <figure markdown> <!--  -->
-    <video playsinline autoplay loop muted src="https://thumbs.gfycat.com/ThoroughSeriousIchidna-mobile.mp4">
+    <video autoplay loop muted src="https://thumbs.gfycat.com/ThoroughSeriousIchidna-mobile.mp4">
     </video>
   <figcaption>object showing the "orbit" option to rotate around the spline path, then switching to a direct flight path, then adding a status effect to the target</figcaption>
 </figure>
@@ -56,7 +56,7 @@ Inspired by this artists video-essay:
 2. Editor and Game views
 
 <figure markdown> <!--  -->
-    <video playsinline autoplay loop muted src="https://thumbs.gfycat.com/HollowMajesticArmadillo-mobile.mp4">
+    <video autoplay loop muted src="https://thumbs.gfycat.com/HollowMajesticArmadillo-mobile.mp4">
     </video>
   <figcaption>Switching between the game and Editor views while an animation plays. This shows the custom editor gizmos created to help customize spline paths and animations</figcaption>
 </figure>

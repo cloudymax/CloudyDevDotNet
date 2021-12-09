@@ -72,8 +72,8 @@ nav:
         - Hazelcast: dev_ops/hazelcast.md
         - MongoDB: dev_ops/mongodb.md
         - GCP Sidecar: dev_ops/gcp-sidecar.md
-        - Prisma: dev_ops/prisma.md
-        - Glusterfs: dev_ops/glusterfs.md
+#        - Prisma: dev_ops/prisma.md
+#        - Glusterfs: dev_ops/glusterfs.md
       - Documentation:
         - Mkdocs: dev_ops/mkdocs.md
         - Just The Docs: dev_ops/justthedocs.md
@@ -83,3 +83,5 @@ nav:
       - Virtual Office: game_dev/virtual-office.md
       - Word-Art Generator: game_dev/word-art.md
       - Unity Authorizer: game_dev/unity-auth.md
+    - /dev/random:
+      - Code Tests: game_dev/code-tests.md

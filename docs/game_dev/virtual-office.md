@@ -38,9 +38,9 @@
 
     WiP
 
-    Relies on Enlighten which Unity is dericating and as of the last update has not published a new solution. That was over a year ago - still no update other than it wont be removed form the engine until 2024. I'm guessing their 1.5 Billion dollar acquisition of Weta is supposed to cover this.
+    Relies on Enlighten which Unity is depricating and as of the last update has not published a new solution. That was over a year ago - still no update other than it wont be removed form the engine until 2024. I'm guessing their 1.5 Billion dollar acquisition of Weta is supposed to cover this.
 
-    IMO if you want realtime GI in production, grab a VXGI solution like NVIDIA's or SonicEthers- then just run the game at a low res and rely on the new amd upsampeling. Unity's support on RGI is just non-existent.
+    IMO if you want realtime GI in production, grab a VXGI solution like NVIDIA's or SonicEthers- then just run the game at a low res and rely on the new amd up-sampeling. Unity's support on RGI is just non-existent.
 
 ??? Bug
 

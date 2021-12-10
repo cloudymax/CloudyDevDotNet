@@ -28,12 +28,6 @@ Inspired by this video-essay:
 
 - Ability to randomly seed/generate abilities and animations to kick-start the creative process
 
-
-    !!! Tip
-      
-        Special thanks to @FreyaHolmer's 2015 Unite presentation on the subject for being a fantastic primer.
-    
-
 ## Examples
 
 

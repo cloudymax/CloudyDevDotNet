@@ -440,7 +440,7 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
         - <b>Reddit.com/r/GameAudio</b> 
 
-            community sound-design challenge organizer
+            community sound-design challenge organizer [Listen on Soundcloud](https://soundcloud.com/deserializeme/untitled)
 
 
 ### __Kitchen Manager__

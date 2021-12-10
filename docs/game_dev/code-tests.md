@@ -6,7 +6,7 @@ Random code challenges I've had to take or debug
 
 - checks passwords strings for multiple conditions that would result in weak passwords. (30 minute timer)
 
-    ??? Note "Code"
+    ??? Example "Code"
     
         ```python
         #!/usr/bin/env python3
@@ -76,7 +76,7 @@ Random code challenges I've had to take or debug
 
 - Checks a list of integers and finds the smallest positive sequential integer missing from the set (30 minute timer)
 
-    ??? Note "Code"
+    ??? Example "Code"
 
         ```python
         #!/usr/env python3
@@ -122,7 +122,7 @@ Random code challenges I've had to take or debug
 
 - Debugging a faulty HackerRank question.
 
-    ??? Note "Code"
+    ??? Example "Code"
     
         ```csharp
         using System.CodeDom.Compiler;
@@ -310,7 +310,7 @@ Random code challenges I've had to take or debug
 
             > handles getting your mouse position
 
-            ??? Note "code"
+            ??? Example "code"
             
                 ```csharp
                 using System.Collections;
@@ -344,7 +344,7 @@ Random code challenges I've had to take or debug
 
             > math library of static functions to handle to heavy vector math work. Again, they wont let you use the unity built-ins for this for some reason.
 
-            ??? Note "code"
+            ??? Example "code"
 
                 ```csharp
                 using System.Collections.Generic;
@@ -615,7 +615,7 @@ Random code challenges I've had to take or debug
 
             > struct that defines the rect we will be testing with as defined in requirements, added a couple fields because i make my own destiny.
 
-            ??? Note "code"
+            ??? Example "code"
                 ```csharp
                 using UnityEngine;
 
@@ -661,7 +661,7 @@ Random code challenges I've had to take or debug
 
             > manages the rect, mouse position, and most of the core loop. serves as our link to other scripts (namely the UI)
 
-            ??? Note "code"
+            ??? Example "code"
                 ```csharp
                 using MouseInput;
                 using System.Collections.Generic;
@@ -952,7 +952,7 @@ Random code challenges I've had to take or debug
 
             > pulls values from rect_manager.cs to drive a small UI.
 
-            ??? Note "Code"
+            ??? Example "Code"
 
                 ```csharp
                 using UnityEngine;
@@ -1084,7 +1084,7 @@ Random code challenges I've had to take or debug
 
             > Editor for manipulating custom class
 
-            ??? Note "Code"
+            ??? Example "Code"
 
                 ```csharp
                 using UnityEngine;

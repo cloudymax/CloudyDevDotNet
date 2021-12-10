@@ -18,12 +18,12 @@ hide:
  
 <div id=hero>
   <div class="hero-bg">
-    <video playsinline autoplay muted id="video-bg" class="video-bg">
+    <center><video playsinline autoplay muted id="video-bg" class="video-bg"></center>
     </video>
   </div>
 </div>
 
-<div class="card-container">
+<center><div class="card-container">
   <div class="card">
 
   <div class="card-header">
@@ -43,4 +43,4 @@ hide:
     </div>
       </br>
   </div>
-</div>
+</div></center>

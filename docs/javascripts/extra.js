@@ -22,7 +22,7 @@ videoSource[9] = 'https://thumbs.gfycat.com/IllDirectAustraliansilkyterrier-mobi
 // spline editor
 videoSource[10] = 'https://thumbs.gfycat.com/HollowMajesticArmadillo-mobile.mp4';
 // Justice from above
-videoSource[11] = 'https://gfycat.com/femalefaithfulborderterrier'
+videoSource[11] = 'https://thumbs.gfycat.com/femalefaithfulborderterrier-mobile.mp4'
 // VR office
 videoSource[12] = 'https://thumbs.gfycat.com/EveryIllinformedCrocodileskink-mobile.mp4'
 

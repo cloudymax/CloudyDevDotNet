@@ -382,7 +382,7 @@ strong, emp {
 	font-size: calc(var(--link-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-link);
 	line-height: var(--title-line-height);
-	color: var(--header-contrast);
+	color: var(--header-contrast)!important;
 	filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--shadow));
 }
 .md-nav__link, a.md-button:active {

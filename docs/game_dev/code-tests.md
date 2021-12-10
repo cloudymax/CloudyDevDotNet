@@ -291,7 +291,7 @@ Random code challenges I've had to take or debug
 
         <figure markdown> <!--  -->
           ![Dummy image](https://github.com/deserializeme/Game-Projects/blob/main/media/gifs/tiletime.gif?raw=true)
-          <figcaption>Trigger/Edge detection</figcaption>
+          <figcaption>Check if a point is inside of a 2D rectangle. If yes, return True, no, False. If the point is outside the rect, return the nearest point on the rect, and return which side it is on. </figcaption>
         </figure>
 
     - Tile Preview Problem

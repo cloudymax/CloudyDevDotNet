@@ -127,7 +127,7 @@ Ubuntu pre-seed was the way to automate the initial setup of ubuntu images and i
 
 3. Using a multipass VM with ansible via Cloud-Init <3
 
-    ???+ Example "Ansible + Cloud-init"
+    ??? Example "Ansible + Cloud-init"
 
         1. create a ssh key for the user and save as a file w/ prompt
         

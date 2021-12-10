@@ -467,7 +467,7 @@ table {
 	filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--header));
 }
 .md-icon{
-	color: var(--header-contrast);
+	color: var(--header-contrast)!important;
 }
 @keyframes lightinout {
 	0%   { --brightness:  55%; }

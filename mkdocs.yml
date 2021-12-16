@@ -8,6 +8,7 @@ theme:
   features:
   - navigation.tabs
   - toc.integrate
+  - navigation.sections
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: max-dark
@@ -61,7 +62,7 @@ markdown_extensions:
 nav:
     - Home: index.md
     - My Resume: resume.md
-    - DevOps Notes:
+    - DevOps:
       - Virtualization: 
         - Cloud-init: dev_ops/README.md
         - Multipass: dev_ops/multipass.md
@@ -77,7 +78,8 @@ nav:
       - Documentation:
         - Mkdocs: dev_ops/mkdocs.md
         - Just The Docs: dev_ops/justthedocs.md
-      - FireBase: dev_ops/firebase.md
+      - Platforms:
+        - FireBase: dev_ops/firebase.md
     - GameDev Notes: 
       - Splines: game_dev/splines.md
       - Virtual Office: game_dev/virtual-office.md
@@ -85,3 +87,7 @@ nav:
       - Unity Authorizer: game_dev/unity-auth.md
     - /DEV/RANDOM:
       - Code Tests: game_dev/code-tests.md
+    - Linux Notes:
+      - Script Order: linux/script_order.md
+      - Ssh-Keys: linux/ssh-keys.md
+      - Bootable USB: linux/bootable-usb.md

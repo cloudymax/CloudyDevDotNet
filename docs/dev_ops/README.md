@@ -8,7 +8,7 @@ Ubuntu pre-seed was the way to automate the initial setup of ubuntu images and i
 >[Multipass launch command docs](https://multipass.run/docs/launch-command)
 
 
-1. Example Clout-Init yaml config file:
+1. Example Cloud-Init yaml config file:
 
     ??? Example "cloudinit cloud-config"
       

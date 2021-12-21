@@ -1,8 +1,8 @@
 #!/bin/bash
+#This all needs to go in CI whenever I get some time
 set -e
 set -u
 set -o pipefail
-set -x
 
 export KIND="StorageV2"
 export LOCATION="westeurope"

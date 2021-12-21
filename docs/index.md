@@ -13,6 +13,11 @@ hide:
         h1 {
           display: none;
         }
+        .card-container {
+	        margin-left: 25%;
+          margin-right: 25%;
+          margin-top: 10%;  
+        }
     </style> 
 </head>
  
@@ -34,7 +39,8 @@ hide:
           <p>
           These are my personal projects 🥳 
           </br>
-          Additional gifs, code, and memes await those who follow the links below ✨
+          Additional gifs, code, and memes
+          await those who follow the links below ✨
           </p>
           </br>
     </div>

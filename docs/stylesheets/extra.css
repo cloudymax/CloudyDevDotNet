@@ -58,10 +58,10 @@
 	--text-z:             -0px;
 }
 [data-md-color-scheme="max-lite"]  {
-	--bg-alpha: .9;
-	--bg-r: 211;
-	--bg-g: 211;
-	--bg-b: 211;
+	--bg-alpha: 1;
+	--bg-r: 220;
+	--bg-g: 220;
+	--bg-b: 220;
 	--bg: rgba(var(--bg-r), var(--bg-g), var(--bg-b), var(--bg-alpha));
 
 	--gradient-color1:   rgba(16, 10, 30, 1);
@@ -90,7 +90,7 @@
 	--header-contrast: rgba(var(--header-contrast-r), var(--header-contrast-g), var(--header-contrast-b), var(--header-contrast-alpha));
 	--header-contrast-brightness: 1;
 
-	--card-bg: rgba(250, 250, 250, .85);
+	--card-bg: rgba(255, 255, 255, .95);
 
 	--code-bg-alpha: .9;
 	--code-bg-r: 1;

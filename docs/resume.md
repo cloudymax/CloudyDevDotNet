@@ -28,7 +28,7 @@ title: "Work Experience"
 
   </br>
           <p>
-            I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
+            I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer,</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification.</b>
             <br></br>
             Currently, I'm developing <b>Cost-Optimized</b>, <b>Hyperconvered</b>, <b>Ephemeral</b>, compute environments that are <b>Fast</b> and <b>Carbon-Neutral</b>. I'm excited to use <b>Computer-Vision</b>, <b>Machine Learning</b>, <b>Digital-Twins</b>, and <b>Renewable Energy Credits</b> to redefine how we <b>work</b>, <b>play</b>, and <b>collaborate</b> with each other in <b>digital spaces</b>.
             </br>

@@ -1,6 +1,6 @@
 Quick and dirty - will port to python later.
 
-This project will manage the lifecycle of a static website hosted in an azure storacge bucket with the long-term goal of using minio and kubernetes to self-host.
+This project will manage the lifecycle of a static website hosted in an azure storage bucket with the long-term goal of using minio and kubernetes to self-host.
 
 ## 1. Creating the Azure Resources
 

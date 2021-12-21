@@ -31,12 +31,12 @@ hide:
   </div>
 
   <div class="card-body">
-          <blockquote>
-          I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
+          <p>
+          I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>.
           This website is where I keep projects I work on for fun and test out new ideas.
           <br></br>
           You can find the projects that power this site and create the cool gifs in the background at my github. Feel free to connect on Linkedin, or share some memes on twitter ^-^
-          </blockquote>
+          </p>
     </div>
     <div class="card-links">
       <a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a> <a href="https://www.twitter.com/@sudosendtweet"><i class="fa fa-twitter-square"></i></a>

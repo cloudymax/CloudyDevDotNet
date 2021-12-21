@@ -7,8 +7,9 @@ theme:
     code: Inconsolata
   features:
   - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.indexes
   - toc.integrate
-  - navigation.sections
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: max-dark
@@ -87,7 +88,7 @@ nav:
       - Unity Authorizer: game_dev/unity-auth.md
     - /DEV/RANDOM:
       - Code Tests: game_dev/code-tests.md
-    - Linux Notes:
-      - Script Order: linux/script_order.md
-      - Ssh-Keys: linux/ssh-keys.md
-      - Bootable USB: linux/bootable-usb.md
+    #- Linux Notes:
+    #  - Script Order: linux/script_order.md
+    #  - Ssh-Keys: linux/ssh-keys.md
+    #  - Bootable USB: linux/bootable-usb.md

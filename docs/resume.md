@@ -13,12 +13,6 @@ title: "Max Roby's Resume"
      </style> 
 </head>
 
-  <center>
-  <h3>Max Roby</h3>
-  <p><b>Amsterdam, NL</br>
-  eMax@CloudyDev.Net</b></br>
-  <b>06.1802.8166</b></p>
-</center>
 <div class="card-container">
   <div class="card">
 
@@ -26,6 +20,12 @@ title: "Max Roby's Resume"
   </div>
 <b></b>
   <div class="card-body">
+
+<center>
+  <h3>Max Roby</h3>
+  <p>Amsterdam, NL</p>
+</center>
+
   </br>
           <p>
             I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>
@@ -441,37 +441,3 @@ I then took over the duties of the former Principal Software Engineer and was ta
         - <b>Reddit.com/r/GameAudio</b> 
 
             community sound-design challenge organizer [Listen on Soundcloud](https://soundcloud.com/deserializeme/untitled)
-
-
-### __Kitchen Manager__
-
-> Beef O'Brady's
->
-> __2009 - 2019__
-
-- As the KitchenManager, oversaw the day-to-day staffing, inventory, prep, and menus for american sports-bar.
-
-    ??? Example "Projects and Accomplishments"
-
-        1. Managed kitchen and bar staff of 4-7 employees according to demands.
-        - Prep, stock, and inventory ordering.
-        - Point of Sale and A/V support 
-        - HPIC Training
-        - ServeSafe Training
-
-
-### __Nursey Specialist__
-
-
-> Frank Otte's Nursery
->
-> __2006 - 2009__
-
-- Guided clients through the possible landscaping solutions and products required to complete their gardening and landscaping projects. 
-
-    ??? Example "Projects and Accomplishments"
-         
-         1. KY State Nurserymen's Training
-         - Forklift and Bobcat operation.
-         - Landscaping and consultation
-         - Sales associate at Nursery and Garden Center

@@ -32,10 +32,9 @@ hide:
 
   <div class="card-body">
           <p>
-          I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification</b>.
-          This website is where I keep projects I work on for fun and test out new ideas.
-          <br></br>
-          You can find the projects that power this site and create the cool gifs in the background at my github. Feel free to connect on Linkedin, or share some memes on twitter ^-^
+          and these are my notes. <br/>
+          The projects that create the cool gifs in the background are at my GitHub. </br>
+          Feel free to connect on LinkedIn, or share some memes on twitter ^-^
           </p>
     </div>
     <div class="card-links">

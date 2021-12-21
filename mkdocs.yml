@@ -62,7 +62,7 @@ markdown_extensions:
   - pymdownx.tilde
 nav:
     - Home: index.md
-    - My Resume: resume.md
+    - Resume: resume.md
     - DevOps:
       - Virtualization: 
         - Cloud-init: dev_ops/README.md

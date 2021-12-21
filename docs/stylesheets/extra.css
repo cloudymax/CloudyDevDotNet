@@ -42,9 +42,9 @@
 	--font-weight-h1:   600;
 	--font-weight-h2:   600;
 	--font-weight-h3:   500;
-	--font-weight-h4:   400;
+	--font-weight-h4:   500;
 	--font-weight-link: 400;
-	--font-weight-text: 300;
+	--font-weight-text: 400;
 	--font-weight-emp:  400;
 	--font-weight-list: 400;
 
@@ -92,10 +92,10 @@
 
 	--card-bg: rgba(250, 250, 250, .85);
 
-	--code-bg-alpha: .3;
-	--code-bg-r: 101;
-	--code-bg-g: 101;
-	--code-bg-b: 101;
+	--code-bg-alpha: .9;
+	--code-bg-r: 1;
+	--code-bg-g: 1;
+	--code-bg-b: 1;
 	--code-bg: rgba(var(--code-bg-r), var(--code-bg-g), var(--code-bg-b), var(--code-bg-alpha));
 
     --primary-alpha: 1;
@@ -207,10 +207,10 @@
     --md-admonition-bg-color: var(--bg);
 }
 [data-md-color-scheme="max-dark"]  {
-	--bg-alpha: 1;
-	--bg-r: 25;
-	--bg-g: 25;
-	--bg-b: 25;
+	--bg-alpha: .85;
+	--bg-r: 8;
+	--bg-g: 8;
+	--bg-b: 10;
 	--bg: rgba(var(--bg-r), var(--bg-g), var(--bg-b), var(--bg-alpha));
 
 	--gradient-color1:   rgba(16, 10, 30, 1);
@@ -226,9 +226,9 @@
 	--bg-repeat: yes;
 
 	--header-alpha: 1;
-	--header-r:     225;
-	--header-g:     225;
-	--header-b:     225;
+	--header-r:     195;
+	--header-g:     195;
+	--header-b:     195;
 	--header: rgba(var(--header-r), var(--header-g), var(--header-b), var(--header-alpha));
 	--header-brightness: 1;
 
@@ -241,10 +241,10 @@
 
 	--card-bg: rgba(20, 20, 20, .90);
 
-	--code-bg-alpha: .6;
-	--code-bg-r: 80;
-	--code-bg-g: 80;
-	--code-bg-b: 80;
+	--code-bg-alpha: .9;
+	--code-bg-r: 1;
+	--code-bg-g: 1;
+	--code-bg-b: 1;
 	--code-bg: rgba(var(--code-bg-r), var(--code-bg-g), var(--code-bg-b), var(--code-bg-alpha));
 
     --primary-alpha: 1;

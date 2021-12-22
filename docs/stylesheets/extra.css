@@ -400,14 +400,14 @@ strong, emp {
 	background-color: var(--header)!important;
 }
 .md-nav__title {
-	background: var(--transparent)!important;
+	background: var(--bg)!important;
 	color: var(--header-contrast)!important;
 	padding-left: 5%!important;
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
 .md-nav__list, .md-nav, .md-nav--primary, .md-nav--lifted, .md-nav--integrated{
-	background: var(--transparent)!important;
+	background: var(--bg)!important;
 	padding: var(--global-padding);
 }
 .highlight {
@@ -765,7 +765,7 @@ p {
 	
 }
 .fa-twitter-square, .fa-linkedin-square, .fa-github-square {
-	padding-inline: 3%;
+	padding-inline: 4%;
 	scale: 200%;
 	color: var(--pop);
 }

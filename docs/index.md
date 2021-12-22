@@ -14,8 +14,8 @@ hide:
           display: none;
         }
         .card-container {
-	        margin-left: 25%;
-          margin-right: 25%;
+	        margin-left: 20%;
+          margin-right: 20%;
           margin-top: 10%;  
         }
     </style> 

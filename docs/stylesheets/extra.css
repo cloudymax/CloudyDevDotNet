@@ -105,9 +105,9 @@
     --primary: rgba(var(--primary-r), var(--primary-g), var(--primary-b), var(--primary-alpha));
 
 	--pop-alpha: 1;
-	--pop-r:  090;
-	--pop-g:  150;
-	--pop-b:  255;
+	--pop-r:  080;
+	--pop-g:  080;
+	--pop-b:  250;
 	--pop: rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--pop-alpha));
 
 	--text-alpha: 1;
@@ -225,10 +225,10 @@
 	--bg-size: 100% 100%;
 	--bg-repeat: yes;
 
-	--header-alpha: 1;
-	--header-r:     195;
-	--header-g:     195;
-	--header-b:     195;
+	--header-alpha: .95;
+	--header-r:     255;
+	--header-g:     255;
+	--header-b:     255;
 	--header: rgba(var(--header-r), var(--header-g), var(--header-b), var(--header-alpha));
 	--header-brightness: 1;
 
@@ -254,9 +254,9 @@
     --primary: rgba(var(--primary-r), var(--primary-g), var(--primary-b), var(--primary-alpha));
 
 	--pop-alpha: 1;
-	--pop-r: 090;
-	--pop-g: 150;
-	--pop-b: 255;
+	--pop-r: 080;
+	--pop-g: 080;
+	--pop-b: 250;
 	--pop: rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--pop-alpha));
 	
 
@@ -401,7 +401,7 @@ strong, emp {
 }
 .md-nav__title {
 	background: var(--bg)!important;
-	color: var(--header-contrast)!important;
+	color: var(--pop)!important;
 	padding-left: 5%!important;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -765,7 +765,7 @@ p {
 	
 }
 .fa-twitter-square, .fa-linkedin-square, .fa-github-square {
-	padding-inline: 4%;
+	padding-inline: 5%;
 	scale: 200%;
 	color: var(--pop);
 }

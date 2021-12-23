@@ -45,7 +45,7 @@ hide:
           </br>
     </div>
     <div class="card-links">
-      <a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a> <a href="https://www.twitter.com/@sudosendtweet"><i class="fa fa-twitter-square"></i></a>
+      <a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a>
     </div>
       </br>
   </div>

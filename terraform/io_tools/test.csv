@@ -1,0 +1,5 @@
+debug,go_steppy,json_file_contents,json_input_file,yaml_file_contents,yaml_input_file
+True,False,True,cache.json,,pref_input_test.yaml
+True,False,True,cache.json,,pref_input_test.yaml
+True,False,json,cache.json,,pref_input_test.yaml
+True,False,,cache.json,"[{'Description': 'test data', 'Name': 'some name', 'Value': 1010101}]",pref_input_test.yaml

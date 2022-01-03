@@ -1,0 +1,148 @@
+[data-md-color-scheme="max-dark"]  {
+	--bg-alpha: 1;
+	--bg-r: 20;
+	--bg-g: 20;
+	--bg-b: 25;
+	--bg: rgba(var(--bg-r), var(--bg-g), var(--bg-b), var(--bg-alpha));
+
+	--gradient-color1:   rgba(16, 10, 30, 1);
+	--gradient-c1-amt:   80%;
+	--gradient-color2:   rgba(15, 15, 20, 1);
+	--gradient-c2-amt:   90%;
+	--gradient-x:        -10.8%;
+	--gradient-y:        -50.3%;
+
+	--graydient: radial-gradient(#000000, var(--gray-50-hex) 350% );
+	--bg-gradient: var(--bg);
+	--bg-size: 100% 100%;
+	--bg-repeat: yes;
+
+	--header-alpha: 1;
+	--header-r:     190;
+	--header-g:     190;
+	--header-b:     195;
+	--header: rgba(var(--header-r), var(--header-g), var(--header-b), var(--header-alpha));
+	--header-brightness: 1;
+
+	--header-contrast-alpha: 1;
+	--header-contrast-r:  1;
+	--header-contrast-g:  1;
+	--header-contrast-b:  1;
+	--header-contrast: rgba(var(--header-contrast-r), var(--header-contrast-g), var(--header-contrast-b), var(--header-contrast-alpha));
+	--header-contrast-brightness: 1;
+
+	--card-bg: rgba(35, 35, 35, .90);
+
+	--code-bg-alpha: 0;
+	--code-bg-r: 1;
+	--code-bg-g: 1;
+	--code-bg-b: 1;
+	--code-bg: rgba(var(--code-bg-r), var(--code-bg-g), var(--code-bg-b), var(--code-bg-alpha));
+
+    --primary-alpha: 1;
+    --primary-r:  220;
+    --primary-g:  220;
+    --primary-b:  220;
+    --primary: rgba(var(--primary-r), var(--primary-g), var(--primary-b), var(--primary-alpha));
+
+	--pop-alpha: 1;
+	--pop-r: 020;
+	--pop-g: 120;
+	--pop-b: 180;
+	--pop: rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--pop-alpha));
+	
+
+	--shadow-x: 1px;
+	--shadow-x-max: .3;
+	--shadow-y: 1px;
+	--shadow-y-max: 1;
+	--shadow-radius: 2px;
+	--brightness: 90%;
+	--shadow-alpha: .4;
+	--shadow-r: 51;
+	--shadow-g: 51;
+	--shadow-b: 51;
+	--shadow: rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha));
+
+	--text-alpha: 1;
+	--text-r: 255;
+	--text-g: 255;
+	--text-b: 255;
+	--text: rgba(var(--text-r), var(--text-g), var(--text-b), var(--text-alpha));
+    --text-brightness: .1;
+	--text-glow: rgba(var(--text-r), var(--text-g), var(--text-b), var(--text-brightness));
+	--border-radius: 10px;
+	--border-style: solid;
+
+	/* search bar cursor and active text */
+	--md-default-fg-color: var(--text);
+	/* h1 headers and >'s, link highlights, TOC nav highlight, hover1 */
+	--md-default-fg-color--light: var(--pop);
+	/* scroll bars and markers un-hovered */
+	--md-default-fg-color--lighter: rgba(var(--pop-r), var(--pop-g), var(--pop-b), 1);
+	/* horizontal lines and icons unhovered, search header background */
+	--md-default-fg-color--lightest: var(--text);
+	/* HTML page Background color */
+	--md-default-bg-color: var(--bg);
+	/*?*/
+	--md-default-bg-color--light: rgba(49, 218, 7, .8);
+	/*?*/
+	--md-default-bg-color--lighter: rgb(253, 99, 10);
+	/*?*/
+	--md-default-bg-color--lightest: rgb(235, 14, 243);
+	/*header background*/
+	--md-primary-fg-color: var(--transparent);
+	/*?*/
+	--md-primary-fg-color--light: var(--header);
+	/*?*/
+	--md-primary-fg-color--dark: var(--header);
+	/* header text and icon color */
+	--md-primary-bg-color: var(--header-contrast);
+	/* search bar initial text */
+	--md-primary-bg-color--light: var(--header-contrast);
+	/* Hover color2 + search syntax highlight */
+	--md-accent-fg-color: rgba(var(--pop-r), var(--pop-g), var(--pop-b), 1);
+	/* search result highlight */
+	--md-accent-fg-color--transparent: rgba(var(--primary-r), var(--primary-g), var(--primary-b), .2);
+	/*?*/
+	--md-accent-bg-color: rgba(2, 22, 222, 1);
+	/*?*/
+	--md-accent-bg-color--light: rgba(235, 14, 243, 1);
+	/* default text color in a code block */
+	--md-code-fg-color: var(--text);
+	--md-code-bg-color: var(--code-bg);
+	--md-code-hl-color: rgb(207, 62, 200);
+	--md-code-hl-number-color: rgb(252, 17, 173);
+	--md-code-hl-special-color: hsla(340, 83%, 47%, 1);
+	--md-code-hl-function-color: hsla(291, 45%, 50%, 1);
+	--md-code-hl-constant-color: rgb(89, 214, 245);
+	--md-code-hl-keyword-color: hsla(219, 54%, 51%, 1);
+	--md-code-hl-string-color: rgb(250, 175, 104);
+	--md-code-hl-name-color: rgb(244, 243, 247);
+	--md-code-hl-operator-color: rgb(250, 167, 111);
+	--md-code-hl-punctuation-color: rgb(250, 69, 69);
+	--md-code-hl-comment-color: rgba(10,220,100,1);
+	--md-code-hl-generic-color: rgba(222,222,222,1);
+	--md-code-hl-variable-color: var(--text);
+	/* Main Font Color */
+	--md-typeset-color: var(--text);
+	--md-typeset-a-color: var(--pop);
+	/*?*/
+	--md-typeset-mark-color: rgba(212,2,212,1);
+	/*?*/
+	--md-typeset-del-color: rgba(255,25,255,1);
+	/*?*/
+	--md-typeset-ins-color: rgba(255,25,255,1);
+	/*?*/
+	--md-typeset-kbd-color: rgba(255,25,255,1);
+	/*?*/
+	--md-typeset-kbd-accent-color: rgba(255,25,255,1);
+	/*?*/
+	--md-typeset-kbd-border-color: rgba(255,25,255,1);
+	/*?*/
+	--md-typeset-table-color: var(--primary);
+	/*?*/
+	--md-admonition-fg-color: var(--text);
+	/*?*/
+	--md-admonition-bg-color: var(--code-bg);
+}

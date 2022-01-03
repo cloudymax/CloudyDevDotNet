@@ -1,0 +1,76 @@
+@keyframes fadein {
+	0% { --shadow-alpha: 0%;
+		 --brightness: 55%; 
+		 --text-y: -1px; 
+		 --shadow-x-max: .1; 
+		 --shadow-y-max: -.1; 
+		}
+	10% {--shadow-alpha: 10%;
+		 --brightness: 60%;
+		 --text-y: -2px;
+		 --shadow-x-max: .2;
+		 --shadow-y-max: -.2; }
+	20% {
+		--shadow-alpha: 20%;
+		--brightness: 65%;
+		--text-y: -3px;
+		--shadow-x-max: .3;
+		--shadow-y-max: -.3;
+	}
+	30% {
+		--shadow-alpha: 30%;
+		--brightness: 70%;
+		--text-y: -4px;
+		--shadow-x-max: .4;
+		--shadow-y-max: -.4;
+	}
+	40%  {
+		--shadow-alpha: 40%,
+		--brightness: 75%;
+		--text-y: -5px;
+		--shadow-x-max: .5;
+		--shadow-y-max: -.5;
+	  }
+	50%  {
+		--shadow-alpha: 50%;
+		--brightness: 80%;
+		--text-y: -6px;
+		--shadow-x-max: .6;
+		--shadow-y-max: -.6;
+	  }
+	60%  {
+		--shadow-alpha: 60%;
+		--brightness: 85%;
+		--text-y: -7px;
+		--shadow-x-max: .7;
+		--shadow-y-max: -.7;
+	  }
+	70%  {
+		--shadow-alpha: 70%;
+		--brightness: 90%;
+		--text-y: -8px;
+		--shadow-x-max: .8;
+		--shadow-y-max: -.8;
+	  }
+	80%  {
+		--shadow-alpha: 80%;
+		--brightness: 95%;
+		--text-y: -9px;
+		--shadow-x-max: .9;
+		--shadow-y-max: -.9;
+	  }
+	90%  {
+		--shadow-alpha: 90%;
+		--brightness: 100%;
+		--text-y: -10px;
+		--shadow-x-max: 1;
+		--shadow-y-max: -1;
+	   ;}
+	100% {
+		--shadow-alpha: 100%;
+		--brightness: 95%;
+		--text-y: -11px;
+		--shadow-x-max: 1.1;
+		--shadow-y-max: -1.1;
+	   ;}
+}

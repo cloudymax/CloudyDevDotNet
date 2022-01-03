@@ -1,0 +1,13 @@
+@keyframes lightinout {
+	0%   { --brightness:  55%; }
+	10%  { --brightness:  60%; }
+	20%  { --brightness:  65%; }
+	30%  { --brightness:  70%; }
+	40%  { --brightness:  75%; }
+	50%  { --brightness:  80%; }
+	60%  { --brightness:  85%; }
+	70%  { --brightness:  90%; }
+	80%  { --brightness:  95%; }
+	90%  { --brightness:  100%;}
+	100% { --brightness:  95%; }
+}

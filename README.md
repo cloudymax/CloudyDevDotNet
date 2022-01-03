@@ -101,3 +101,12 @@ az storage account show \
 # https://cloudydevdata.z6.web.core.windows.net/  
 ```
 
+## Terraform
+
+1. generate the root_rg.tfvars template file
+
+```zsh
+
+sed -e 's/^"//' -e 's/"$//'  <<< $(cat terraform/variables.tf |grep -ai "variable" |awk '{print $2}') > tmp.yaml
+sed -e 's/$/ = " "/' -i tmp.yaml
+```

@@ -1,0 +1,18 @@
+.hero-bg {
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+}
+.video-bg {
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    min-width: 80%;
+    min-height: 110%;
+    z-index: -100;
+}

@@ -23,7 +23,7 @@ hide:
  
 <div id=hero>
   <div class="hero-bg">
-    <center><video playsinline autoplay muted id="video-bg" class="video-bg"></center>
+    <video playsinline autoplay muted id="video-bg" class="video-bg">
     </video>
   </div>
 </div>

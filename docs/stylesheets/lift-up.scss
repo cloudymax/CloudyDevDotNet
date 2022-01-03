@@ -1,0 +1,13 @@
+@keyframes lift-up {
+	0%  { --text-y: -1px; }
+	10% { --text-y: -2px; }
+	20% { --text-y: -3px; }
+	30% { --text-y: -4px; }
+	40% { --text-y: -5px; }
+	50% { --text-y: -6px; }
+	60% { --text-y: -7px; }
+	70% { --text-y: -8px; }
+	80% { --text-y: -9px; }
+	90% { --text-y: -10px;}
+	100% { --text-y: -11px;}
+}

@@ -1,0 +1,4 @@
+Settings:
+  - Name: "some name"
+    Description: "test data"
+    Value: 1010101 

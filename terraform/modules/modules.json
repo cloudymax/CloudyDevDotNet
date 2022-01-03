@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"terraform_service_account","Source":"./modules/az-sp-for-rbac","Dir":""},{"Key":"tf_azurerm_keyvault","Source":"./modules/az-keyvault","Dir":""},{"Key":"","Source":"","Dir":"."}]}

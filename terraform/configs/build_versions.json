@@ -1,0 +1,51 @@
+{
+    "providers": [
+        {
+            "name": "random",
+            "source": "hashicorp/random",
+            "version": "3.1.0"
+        },
+        {
+            "name": "azurerm",
+            "source": "hashicorp/azurerm",
+            "version": "2.51.0",
+            "kv_recover": "true",
+            "kv_purge": "true",
+            "environment": "public"
+        },
+        {
+            "name": "azuread",
+            "source": "hashicorp/azuread",
+            "version": "1.4.0",
+            "environment": "public"
+        }
+    ],
+    "modules": [
+        {
+            "name": "keyvault",
+            "source": "tfe",
+            "version": "0.0.5"
+        },
+        {
+            "name": "labels",
+            "source": "tfe",
+            "version": "2.1.2"
+        },
+        {
+            "name": "terraform-azurerm-assigned-identity",
+            "source": "git::https://4008575:e63668fe515c90050f1d1fb433c57638b0cdf8c3@github.az.fxei.fedex.com/terraform/terraform-azurerm-assigned-identity",
+            "version": "None"
+        },
+        {
+            "name": "terraform-azuread-sp-for-rbac",
+            "source": "git::https://4008575:e63668fe515c90050f1d1fb433c57638b0cdf8c3@github.az.fxei.fedex.com/terraform/terraform-azuread-sp-for-rbac",
+            "version": "None"
+        }
+    ],
+    "terraform": [
+        {
+            "name": "terraform",
+            "version": "0.15.0"
+        }
+    ]
+}

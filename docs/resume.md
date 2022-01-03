@@ -9,6 +9,27 @@ title: "Work Experience"
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
         h1 {
           display: none;
+	      font-weight: 600!important;
+        }
+        h2 {
+	      font-weight: 600!important;
+        }
+        h3 {
+	      font-weight: 600!important;
+        }
+        h4 {
+	      font-weight: 600!important;
+        }
+        ol, li {
+          text-transform: capitalize;
+	      font-weight: 600!important;
+          list-style: none;
+        }
+        strong {
+          font-size: 20px!important;
+          text-transform: capitalize;
+	      font-weight: 600!important;
+          list-style: none;
         }
      </style> 
 </head>
@@ -18,7 +39,7 @@ title: "Work Experience"
 
   <div class="card-header">
   </div>
-<b></b>
+
   <div class="card-body">
 
 <center>
@@ -27,9 +48,9 @@ title: "Work Experience"
   -
 </center>
           <p>
-            I'm a <b>Full Stack Developer</b>, <b>DevOps Engineer,</b> and <b>Architect</b> with <b>10+ years</b> experience across multiple segments of the tech industry specializing in <b>Automation</b>, <b>Architecture</b>, and <b>Gamification.</b>
+            I'm a Full Stack Developer, DevOps Engineer, and Architect with 10+ years experience across multiple segments of the tech industry specializing in Automation, Architecture, and Gamification.
             <br></br>
-            Currently, I'm developing <b>Cost-Optimized</b>, <b>Hyperconvered</b>, <b>Ephemeral</b>, compute environments that are <b>Fast</b> and <b>Carbon-Neutral</b>. I'm excited to use <b>Computer-Vision</b>, <b>Machine Learning</b>, <b>Digital-Twins</b>, and <b>Renewable Energy Credits</b> to redefine how we <b>work</b>, <b>play</b>, and <b>collaborate</b> with each other in <b>digital spaces</b>.
+            Currently, I'm developing Cost-Optimized, Hyperconvered, Ephemeral, compute environments that are Fast and Carbon-Neutral. I'm excited to use Computer-Vision, Machine Learning, Digital-Twins, and Renewable Energy Credits to redefine how we work, play, and collaborate with each other in digital spaces.
             </br>
             <p>
             Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p>
@@ -43,59 +64,59 @@ title: "Work Experience"
 [:fontawesome-solid-file-alt: PDF](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[ :fontawesome-solid-file-alt: DocX](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.docx){ .md-button .md-button--primary }
 </center>
 
-### __FedEx Express__
+### FedEx Express
 
-> Senior Architect
+> __Senior Architect__
 >
-> 2020 - Present
+> __2020 - Present__
 
-* As Sr. Architect I led efforts to shift FedEx's European co-location and public cloud assets to on-prem and hybrid-cloud following the acquisition of TNT Netherlands. Coordinating with international teams, I developed a golden-path architecture using Ansible, Terraform, Azure Cloud, and VMware Tanzu, which aligned with international business OKRs and key strategic initiatives, specifically: Cost Optimization, Cost Observability, Speed of Service, Security, and Carbon-Neutrality.
+* <p>As Sr. Architect I led efforts to shift FedEx's European co-location and public cloud assets to on-prem and hybrid-cloud following the acquisition of TNT Netherlands. Coordinating with international teams, I developed a golden-path architecture using Ansible, Terraform, Azure Cloud, and VMware Tanzu, which aligned with international business OKRs and key strategic initiatives, specifically: Cost Optimization, Cost Observability, Speed of Service, Security, and Carbon-Neutrality.</p>
 
     ??? Example "Projects & Accomplishments"
 
-          1. <b>Ephemeral On-Prem Hybrid-Cloud Platform</b>
+          1. Ephemeral On-Prem Hybrid-Cloud Platform
 
             Ansible, Terraform, Azure Arc, VMware Tanzu CE, Cluster API, Azure Kubernetes Service 
 
             > Building from two directions - Bare-Metal Up and Pubic-CLoud Down - Created a unified container orchestration layer through homogenization of varied hardware and network types using ephemeral identities, infrastructure.
 
-          - <b>Internal Memory-Cache/ORM interface:</b>
+          - Internal Memory-Cache/ORM interface
 
             Python, Hazelcast, Postgres, Snap, Ubuntu Core
 
             > Broke through a deadlock caused by legacy licensing processes providing a step-change solution in the interim to enable further cloud transformation.
 
-          - <b>Multiple static website generator micro-services</b>
+          - Multiple static website generator micro-services
 
             Mkdocs, Jekyll Material, Python, Webpack and the accompanying build/deploy pipelines using Azure, Github, Jenkins, Ansible, Terraform
             >
             > Allows multiple teams to automatically generate documentation that is compliant with internal CSS, UX, Branding, and Accessibility standards.
 
-          - <b>Multiple DBaaS micro-services</b> 
+          - Multiple DBaaS micro-services 
     
             MongoDB, Postgres 11, Hazelcast IMDG
 
             > Provided an approved selection of containerized database/cache products pre-configured and certified for use with internal self-service platform. 
 
-          - <b>Microservice to dynamically generate Terraform files/HCL objects</b> 
+          - Microservice to dynamically generate Terraform files/HCL objects 
 
             Backend, TFvars, Providers, Versions etc...
 
             > Generated HCL output from json, yaml, or database values allowing the creation/replication of the full azure production AZure Kubernestes as an ephemeral platform. This also enabled the use of terraform to use ephemeral identities in internal pipelines.
 
-          - <b>Multiple Terraform modules<b> 
+          - Multiple Terraform modules 
 
             Keyvaults, Secrets, Certificates, Keys, Blob Storage Accounts and Containers, IAM, RBAC, AD Groups, Users, Applications, Identities, AKS clusters, Virtual Machines, and Scale Sets
 
             > for use with company IaaC, PaaS, SaaS, and IAM/RBAC products. These modules added or enhanced features of the FedEx Azure cloud platform.
 
-          - <b>Akv2k8s</b>: 
+          - Akv2k8s: 
 
             Terraform, Azure Keyvault, Azure Kubernetes Service, Azure Managed Identities, Service Principles, Secrets, Keys, and Certificates.
 
             > end-to-end automated test and install to synchronize assets between Azure and Kubernetes using mutating webhooks and init containers. Utilized the Kubernetes Alpha provider to install CRDs required to automate testing
 
-          - <b>Azure Pod Identity</b>: 
+          - Azure Pod Identity: 
 
             Azure Active Directory, Managed Identities, Azure Kubernetes Service, Terraform
 
@@ -104,9 +125,9 @@ title: "Work Experience"
 
 
 
-### __STRIVR Labs__ 
+### STRIVR Labs
 
-> Senior Platform Engineer
+> __Senior Platform Engineer__
 >
 > __2019 - 2020__
 
@@ -116,53 +137,53 @@ I then took over the duties of the former Principal Software Engineer and was ta
     ??? Example "Projects and Accomplishments"
 
 
-        1. <b>Automated Hardware RMA software</b>
+        1. Automated Hardware RMA software
         
             Ansible, #Bash, GCP, PSQL
         
             > Increased RMA throughput by automating diagnostics, troubleshooting, documentation, reporting and inventory of damaged, returned Linux SOC edge compute units and Oculus/Pico VR HMDs.
 
-        - <b>Cloud Resource Lifecycle Management</b> 
+        - Cloud Resource Lifecycle Management 
         
             Python, #Bash, Ansible, Terraform, Docker, GCP
 
             > Managed all corporate and client cloud infrastructure on GCP, and entire physical fleet of linux SOC edge compute units and Virtual Reality headsets.
 
-        - <b>Virtual Office</b> 
+        - Virtual Office 
         
             Unity3d, C#, .Net, Ubuntu, redis, postgres, GCP
 
             > Tool allowing employees to create their own customizable VR office space, share it with friends, and export a custom Zoom background.
 
-        - <b>Cross-Training</b> 
+        - Cross-Training 
           
             Unity 3D, Clonezilla, Grub, WSL, Ubuntu
 
             > Trained other Engineers on technology used in other parts of the stack which helped enable isolated teams, leading to better remote collaboration between Seattle Development and California Warehouse groups.
 
-        - <b>Redesigned content deployment backend</b>
+        - Redesigned content deployment backend
         
             Python, shell, docker, Postgres 9, GCP, Ansible 
           
             > Reduced time to deploy from weeks to less than 10 minutes by automating handoffs and establishing processes with SLAs for remaining stakeholders.
 
-        - <b>Automated Security Scanning</b>
+        - Automated Security Scanning
         
-            Snyk, Docker, Trivy, Ansible.
+            > Snyk, Docker, Trivy, Ansible.
 
-        - <b>Linux SoC system image build and upgrade</b> 
+        - Linux SoC system image build and upgrade 
         
-            Ubuntu Pre-Seed, Cloud-init, Vagrant, Clonezilla and Ansible.
+            > Ubuntu Pre-Seed, Cloud-init, Vagrant, Clonezilla and Ansible.
 
-        - <b>Logging scripts for dashboards and alerting</b>   
+        - Logging scripts for dashboards and alerting   
           
-            Stackdriver, Compute, Storage, Ansible, Bash, Python.
+            > Stackdriver, Compute, Storage, Ansible, Bash, Python.
 
 
 
-### __Political Campaign__
+### Political Campaign
 
-> Full-Stack Developer
+> __Full-Stack Developer__
 >
 > __2019 - 2020__
 
@@ -170,33 +191,33 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Feature additions"
 
-        1. <b>User data persistence</b> 
+        1. User data persistence 
 
-            (S3, google sheets, C#, SQL)
+            > S3, google sheets, C#, SQL
         
-        - <b>Moderation team time tracking</b>
+        - Moderation team time tracking
 
-             (C#, SQL)
+            > C#, SQL
         
-        - <b>Gamified content engagement tools</b> 
+        - Gamified content engagement tools 
              
-             (C#, Unity3D, SQL)
+            > C#, Unity3D, SQL
         
-        - <b>Custom role-based automation</b> 
+        - Custom role-based automation 
         
-             (C#, SQL)
+            > C#, SQL
         
-        - <b>Quarantine zones/roles</b>
+        - Quarantine zones/roles
         
-             (Discord.Net, C#)
+            > Discord.Net, C#
         
-        - <b>Community organization/outreach functions</b>
+        - Community organization/outreach functions
         
-             (C#, Discord.Net, Google Sheets API, SQL, MailGun)
+            > C#, Discord.Net, Google Sheets API, SQL, MailGun
 
-### __Pizza Hut__
+### Pizza Hut
 
-> Systems Engineer
+> __Systems Engineer__
 >
 > __2011 - 2019__
  
@@ -206,39 +227,39 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-          1. <b>IaC for virtual training lab systems<b> 
+          1. IaC for virtual training lab systems 
           
-            (VMware, VirtualBox, Vagrant, Ubuntu, Windows 7)
+                > VMware, VirtualBox, Vagrant, Ubuntu, Windows 7
 
-          - <b> IaC for bare-metal servers </b>
+          -  IaC for bare-metal servers 
 
-            (Ubuntu, Ansible, Vagrant, PXE, Clonezilla, AMT, iDrac)
+                > Ubuntu, Ansible, Vagrant, PXE, Clonezilla, AMT, iDrac
 
-          - <b>Mobile Device Management and security testing</b> 
+          - Mobile Device Management and security testing 
           
-              (Samsung Tizen)
+                > Samsung Tizen
 
-          - <b>Compatibility patches and scripts<b> 
+          - Compatibility patches and scripts 
           
-              (Linux, bash, xorg, xinput, grub, udev, rc.local) 
+                (Linux, bash, xorg, xinput, grub, udev, rc.local)
               
-              > certified functionality of all new hardware entering Pizza Hut ecosystem which reduced the cost of entry for new franchisees and extended the life of hardware.
+                > certified functionality of all new hardware entering Pizza Hut ecosystem which reduced the cost of entry for new franchisees and extended the life of hardware.
 
 
-          - <b>Internal Mobile App</b> 
+          - Internal Mobile App 
           
               (Android, Android Studio, Java)
               
               > Allowed user to interact with proprietary software over PCI compliant wireless APs used by 1000+ management-level employees.
 
 
-          - <b>Interactive network and hardware visualization program</b> 
+          - Interactive network and hardware visualization program 
           
               (Unity 3D, C#, Bash, Python/Ansible, SQL, Ubuntu) 
               
               > A "Virtual Agent" which mapped, monitored, and diagnosed issues with store networks and hardware, identified biggest call-drivers for the help-desk and interfaced with ticketing systems. Users dynamically received on-screen, step-by-step instructions on how to resolve many common hardware and network issues without the need to contact an agent.
 
-          - <b>Windows image creation</b>
+          - Windows image creation
             
               (Windows 7, 8, 10, registry, chocolaty, powershell) 
               
@@ -250,29 +271,29 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-        1. <b>Directed OS migration hardware compatibility testing</b> 
+        1. Directed OS migration hardware compatibility testing 
         
             (Xorg, Xinput, grub, drivers) and certification of point-of-sale hardware and peripherals (servers, terminals,touchscreens, signage)
 
 
-        - <b>Maintained and contributed to GM build pipeline</b> 
+        - Maintained and contributed to GM build pipeline 
         
-            (Bash, Powershell, Ansible, Vagrant) for Linux and Windows images
+            > Bash, Powershell, Ansible, Vagrant) for Linux and Windows images
 
 
-        - <b>Setup and Deployment of remote servers</b> 
+        - Setup and Deployment of remote servers 
         
-            PXE, Clonezilla, Acronis, Ansible, and Intel AMT.
+            > PXE, Clonezilla, Acronis, Ansible, and Intel AMT.
 
 
-        - <b>Performed system component performance benchmarking</b> 
+        - Performed system component performance benchmarking 
         
             (Linux, Bash, SQL, Vagrant)
           
             > Used this data to guide hardware purchasing decisions for upgrade/replacement strategies.
 
 
-        - <b>Brand-standards enforcement and hardware life-cycle management reporting microservice</b> 
+        - Brand-standards enforcement and hardware life-cycle management reporting microservice 
         
             (JavaScript, HTML, CSS, Python, flask) 
             
@@ -283,56 +304,56 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-        1. <b>Created new Help-Desk analyst KPIs and metrics</b>
+        1. Created new Help-Desk analyst KPIs and metrics
         
             (SQL, Cisco Agent, BMC Remedy, Excel) 
           
             > Vastly improved clarity of employee performance and reporting granularity.
 
 
-        - <b>Gamified leader-board</b> 
+        - Gamified leader-board 
         
             (Unity3D, C#, SQL, Cisco Agent, BMC Remedy) 
             
             > Also delivered training materials to supplement KPI and metrics system driving the leader-board to increase transparency..
 
 
-        - <b>Automated troubleshooting tools
+        - Automated troubleshooting tools
         
             (Linux,Java,Bash) 
             
             > Enabled Help-Desk employees to resolve non-technical, call-driving issues identified by leadership as resource intensive(Payroll, Inventory, Reporting, Ideal-usage, Labor)
 
 
-        - <b>Mentored and trained L1 Help-Desk employees</b> 
+        - Mentored and trained L1 Help-Desk employees 
         
-            (Linux,proprietary software (Java, SQL, bash), point-of-sale hardware, servers, and network equipment) 
+            > Linux,proprietary software (Java, SQL, bash), point-of-sale hardware, servers, and network equipment
             
-        - <b>Alert Monitoring and Response
+        - Alert Monitoring and Response
         
             (Solarwinds)
          
             > Troubleshot, and resolved network issues with external help desks and vendors.
 
 
-        - <b>Remote point-of-sale hardware management
+        - Remote point-of-sale hardware management
         
             (Terminals, AIO devices, printers, cash registers, switches, routers)
             
             > 4000+ sites.
 
 
-        - <b>Senior Analyst for RMA/advanced exchange process</b> 
+        - Senior Analyst for RMA/advanced exchange process 
         
             > Managed lifecycle, and SLA with hardware vendors and service providers
 
 
-        - <b>Managed network reliability monitoring</b> 
+        - Managed network reliability monitoring 
         
             > For remote sites as part of a team working with SolarWinds alerting and Sonicwall APs.
 
 
-        - <b>Contributed to proprietary business codebase 
+        - Contributed to proprietary business codebase 
         
               (Java, Bash, Linux, SQL, Windows) 
               
@@ -340,9 +361,9 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
 
 
-### __Independent Developer__
+### Independent Developer
 
-> Various
+> __Various__
 >
 > __2009 - 2019__
 
@@ -350,50 +371,50 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-        1. <b>Skyrim lighting mod</b>
+        1. Skyrim lighting mod
         
             (ENB, Nexus mods, OpenGL, C#)
             
             > Increased the visual fidelity of the game experience and resolved bug in the default eye-adaptation post-processing effect implementation on AMD crossfire.
 
 
-        - <b>Skyrim free-camera mod</b> 
+        - Skyrim free-camera mod 
             
             (Papyrus) 
             
             > Allow manual camera DoF, lighting, ToD, and smoother movement for video/photo capture of game-play.
 
 
-          - <b>World of Warcraft Mod</b> 
+          - World of Warcraft Mod 
           
               (Lua, WeakAuras) 
               
               > Allow players to live out their Initial-D drifting dreams by playing euro-beat music and displaying animated speed lines in the UI whenever a speed-boost was detected as active on the player.
 
 
-          - <b>Volumetric reverb and sound occlusions system</b> 
+          - Volumetric reverb and sound occlusions system 
           
               (Unity3D, C#) 
               
               > based on a talk by David Sirland of Dice and methods used in Battlefield 3 to create realistic positional audio. System captures data about surrounding geometry and sound sources to determine the appropriate level and type of reverb to use as well as realistically occludes sounds based on line of sight, distance, and position.
 
 
-          - <b>Spline-based particle animation system</b>
+          - Spline-based particle animation system
             
               (C#, Unity3D) 
                 
               > Based on multiple GDC talks which combines a guided-generation spline system, scriptableobjects, and animation curve data to rapidly create and iterate on game assets while specifically paying attention to proper use of animation principles(squash, anticipation, timing etc...)
 
 
-          - <b>Unity 3d Input wrapper</b> 
+          - Unity 3d Input wrapper 
               
               (C#, Unity3D, DirectInput) 
                 
               > Allowed keyboard/game pad control schemes to be altered, created, saved by users at runtime in Unity3D. Provided enhancements such as: device agnostic syntax, per-axis sensitivity and dead-zone configuration, rumble support, ability to track active/inactive inputs, duration of inputs, and combinations/order of concurrent of inputs.
 
-### __Music Technologist__ 
+### Music Technologist
 
-> Louisville Ky
+> __Louisville, Ky__
 >
 > __2006 - 2016__
 
@@ -401,42 +422,42 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-        - <b>Music Composition and Production</b> 
+        - Music Composition and Production 
 
             (Ableton Live, Fruity Loops Studio, Reason)
 
             > Used Digital Audio Workstation software, VSTs, audio interfaces and a host of other equipment to record, level and mix client performances in live or studio environments.
 
-        - <b>Studio design, mixing</b> 
+        - Studio design, mixing 
 
             Student (Bizianes Music)
 
             > Learned studio construction and operation at Biazianes Music Studio as part of Music Technology studies.
 
-        - <b>Live and Studio Performance</b> 
+        - Live and Studio Performance 
 
             (Guitar, Bass, Percussion)
 
             > Performed and recorded with multiple acts in the Louisville, KY area.
 
-        - <b>Live Sound and Live Recording</b> 
+        - Live Sound and Live Recording 
 
             > Provided equipment setup and recording services for local musical and cultural events in Louisville, Ky as a part of student and professional organizations.
 
-        - <b>Taste of Chaos Tour and Brewery Thunderdome appearances</b> 
+        - Taste of Chaos Tour and Brewery Thunderdome appearances 
 
-            (2009 - AFTS - Guitarist/Composer)
+            > 2009 - AFTS - Guitarist/Composer
 
-        - <b>Wolf-Howl Award</b> 
+        - Wolf-Howl Award 
 
             "Best Original Sound Design" 
 
             > (Dragon’s Eye Productions - Furcadia) [Listen on Soundcloud](https://soundcloud.com/deserializeme/halloween-rpg-music)
 
-        - <b>Sound Design and Composition</b> 
+        - Sound Design and Composition 
 
-            (Facebook Slots - Cat’s Eye Productions) [Listen on Soundcloud](https://soundcloud.com/deserializeme/freespin)
+            > Facebook Slots - Cat’s Eye Productions [Listen on Soundcloud](https://soundcloud.com/deserializeme/freespin)
 
-        - <b>Reddit.com/r/GameAudio</b> 
+        - Reddit.com/r/GameAudio 
 
-            community sound-design challenge organizer [Listen on Soundcloud](https://soundcloud.com/deserializeme/untitled)
+            > Community sound-design challenge organizer [Listen on Soundcloud](https://soundcloud.com/deserializeme/untitled)

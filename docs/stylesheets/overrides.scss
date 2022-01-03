@@ -1,0 +1,84 @@
+.md-nav--lifted, .md-nav__list, .md-nav__item--active {
+  margin-top: 0;
+  padding: 0 .6rem;
+  color: var(--text);
+  font-size: calc(var(--link-multiplier) * var(--font-size));
+  font-weight: var(--font-weight-link);
+  line-height: var(--title-line-height);
+  padding: var(--global-padding);
+}
+.md-tabs__link {
+    background: var(--transparent);
+    font-size: calc(var(--link-multiplier) * var(--font-size));
+    font-weight: var(--font-weight-link);
+    line-height: var(--title-line-height);
+    color: var(--header-contrast)!important;
+}
+.md-header, .md-header--lifted{
+    background-color: var(--header);
+}
+.md-nav__link, a.md-button:active {
+    color: var(--header)!important;
+    font-weight: var(--font-weight-text);
+}
+.md-button {
+    scale: 70%;
+}
+.md-button--primary {
+    color: var(--header-contrast)!important;
+    background-color: var(--header)!important;
+}
+.md-nav__title {
+    background: var(--bg)!important;
+    color: var(--pop)!important;
+    padding-left: 5%!important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.md-nav__list, .md-nav, .md-nav--primary, .md-nav--lifted, .md-nav--integrated{
+    background: var(--bg)!important;
+    padding: var(--global-padding);
+}
+.md-ellipsis {
+	font-size: calc(var(--elipsis-multiplier) * var(--font-size));
+	font-weight: var(--font-weight-link);
+	color: var(--header-contrast);
+}
+.md-nav__link--active {
+	color: var(--text);
+}
+.md-grid {
+	max-width: 1440px;
+}
+.md-button {
+  filter: drop-shadow(var(--shadow-x) var(--shadow-y) var(--shadow-radius) var(--header));
+}
+.md-icon{
+	color: var(--pop)!important;
+}
+.md-footer {
+	background: var(--header);
+}
+.md-typeset blockquote {
+    border-left: .2rem solid var(--md-default-fg-color--lighter);
+    color: var(--text);
+    padding-left: .6rem;
+}
+.md-typeset{
+	font-size: calc(var(--header2-multiplier) * var(--font-size));
+}
+.md-typeset .example > summary::before {
+    background-color: var(--header-contrast);
+	padding: var(--global-padding);
+}
+.md-typeset .example > summary {
+    background-color: var(--header);
+    border-color: var(--header);
+	color: var(--header-contrast);
+}
+.md-typeset details.example {
+    border-color: var(--header);
+}
+.md-typeset details{
+	filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.8));
+}

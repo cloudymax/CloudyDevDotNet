@@ -16,20 +16,30 @@ title: "Work Experience"
         }
         h3 {
 	      font-weight: 600!important;
+          line-height: .5!important;
         }
         h4 {
 	      font-weight: 600!important;
+          font-size: 12pt!important;
+          line-height: .5!important;
+        }
+        h5 {
+	      font-weight: 600!important;
+          font-size: 10pt!important;
+          text-transform: lowercase!important;
+          line-height: .5!important;
         }
         ol, li {
-          text-transform: capitalize;
 	      font-weight: 600!important;
           list-style: none;
         }
         strong {
           font-size: 20px!important;
-          text-transform: capitalize;
 	      font-weight: 600!important;
           list-style: none;
+        }
+        .card-container{
+            background-color: var(--header);
         }
      </style> 
 </head>
@@ -44,10 +54,10 @@ title: "Work Experience"
 
 <center>
   <h3>Max Roby</h3>
-  <p>Amsterdam, NL</p>
-  -
+  <h4>Amsterdam, NL</h4>
 </center>
           <p>
+          <br>
             I'm a Full Stack Developer, DevOps Engineer, and Architect with 10+ years experience across multiple segments of the tech industry specializing in Automation, Architecture, and Gamification.
             <br></br>
             Currently, I'm developing Cost-Optimized, Hyperconvered, Ephemeral, compute environments that are Fast and Carbon-Neutral. I'm excited to use Computer-Vision, Machine Learning, Digital-Twins, and Renewable Energy Credits to redefine how we work, play, and collaborate with each other in digital spaces.
@@ -74,49 +84,57 @@ title: "Work Experience"
 
     ??? Example "Projects & Accomplishments"
 
-          1. Ephemeral On-Prem Hybrid-Cloud Platform
+          1. <b>Ephemeral On-Prem Hybrid-Cloud Platform</b>
 
-            Ansible, Terraform, Azure Arc, VMware Tanzu CE, Cluster API, Azure Kubernetes Service 
+            Ansible, Terraform, Azure Arc, VMware Tanzu CE, Cluster API, Azure Kubernetes Service
 
             > Building from two directions - Bare-Metal Up and Pubic-CLoud Down - Created a unified container orchestration layer through homogenization of varied hardware and network types using ephemeral identities, infrastructure.
 
-          - Internal Memory-Cache/ORM interface
+            <br>
+
+          - <b>Internal Memory-Cache/ORM interface<b>
 
             Python, Hazelcast, Postgres, Snap, Ubuntu Core
 
             > Broke through a deadlock caused by legacy licensing processes providing a step-change solution in the interim to enable further cloud transformation.
 
-          - Multiple static website generator micro-services
+            <br>
+          - <b>Multiple static website generator micro-services</b>
 
             Mkdocs, Jekyll Material, Python, Webpack and the accompanying build/deploy pipelines using Azure, Github, Jenkins, Ansible, Terraform
             >
             > Allows multiple teams to automatically generate documentation that is compliant with internal CSS, UX, Branding, and Accessibility standards.
 
-          - Multiple DBaaS micro-services 
+            <br>
+          - <b>Multiple DBaaS micro-services</b> 
     
             MongoDB, Postgres 11, Hazelcast IMDG
 
             > Provided an approved selection of containerized database/cache products pre-configured and certified for use with internal self-service platform. 
 
-          - Microservice to dynamically generate Terraform files/HCL objects 
+            <br>
+          - <b>Microservice to dynamically generate Terraform files/HCL objects</b> 
 
             Backend, TFvars, Providers, Versions etc...
 
             > Generated HCL output from json, yaml, or database values allowing the creation/replication of the full azure production AZure Kubernestes as an ephemeral platform. This also enabled the use of terraform to use ephemeral identities in internal pipelines.
 
-          - Multiple Terraform modules 
+            <br>
+          - <b>Multiple Terraform modules</b> 
 
             Keyvaults, Secrets, Certificates, Keys, Blob Storage Accounts and Containers, IAM, RBAC, AD Groups, Users, Applications, Identities, AKS clusters, Virtual Machines, and Scale Sets
 
             > for use with company IaaC, PaaS, SaaS, and IAM/RBAC products. These modules added or enhanced features of the FedEx Azure cloud platform.
 
-          - Akv2k8s: 
+            <br>
+          - <b>Akv2k8s</b>: 
 
             Terraform, Azure Keyvault, Azure Kubernetes Service, Azure Managed Identities, Service Principles, Secrets, Keys, and Certificates.
 
             > end-to-end automated test and install to synchronize assets between Azure and Kubernetes using mutating webhooks and init containers. Utilized the Kubernetes Alpha provider to install CRDs required to automate testing
 
-          - Azure Pod Identity: 
+            <br>
+          - <b>Azure Pod Identity</b>: 
 
             Azure Active Directory, Managed Identities, Azure Kubernetes Service, Terraform
 
@@ -137,45 +155,52 @@ I then took over the duties of the former Principal Software Engineer and was ta
     ??? Example "Projects and Accomplishments"
 
 
-        1. Automated Hardware RMA software
+        1. <b>Automated Hardware RMA software</b>
         
             Ansible, #Bash, GCP, PSQL
         
             > Increased RMA throughput by automating diagnostics, troubleshooting, documentation, reporting and inventory of damaged, returned Linux SOC edge compute units and Oculus/Pico VR HMDs.
 
-        - Cloud Resource Lifecycle Management 
+            <br>
+        - <b>Cloud Resource Lifecycle Management</b> 
         
             Python, #Bash, Ansible, Terraform, Docker, GCP
 
             > Managed all corporate and client cloud infrastructure on GCP, and entire physical fleet of linux SOC edge compute units and Virtual Reality headsets.
 
-        - Virtual Office 
+            <br>
+        - <b>Virtual Office</b> 
         
             Unity3d, C#, .Net, Ubuntu, redis, postgres, GCP
 
             > Tool allowing employees to create their own customizable VR office space, share it with friends, and export a custom Zoom background.
 
-        - Cross-Training 
+            <br>
+        - <b>Cross-Training</b> 
           
             Unity 3D, Clonezilla, Grub, WSL, Ubuntu
 
             > Trained other Engineers on technology used in other parts of the stack which helped enable isolated teams, leading to better remote collaboration between Seattle Development and California Warehouse groups.
 
-        - Redesigned content deployment backend
+            <br>
+        - <b>Redesigned content deployment backend</b>
         
             Python, shell, docker, Postgres 9, GCP, Ansible 
           
             > Reduced time to deploy from weeks to less than 10 minutes by automating handoffs and establishing processes with SLAs for remaining stakeholders.
 
-        - Automated Security Scanning
+            <br>
+        - <b>Automated Security Scanning</b>
         
             > Snyk, Docker, Trivy, Ansible.
 
-        - Linux SoC system image build and upgrade 
+            <br>
+        - <b>Linux SoC system image build and upgrade</b> 
         
             > Ubuntu Pre-Seed, Cloud-init, Vagrant, Clonezilla and Ansible.
 
-        - Logging scripts for dashboards and alerting   
+            <br>
+        - <b>Logging scripts for dashboards and alerting</b>   
           
             > Stackdriver, Compute, Storage, Ansible, Bash, Python.
 
@@ -191,27 +216,32 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Feature additions"
 
-        1. User data persistence 
+        1. <b>User data persistence</b> 
 
             > S3, google sheets, C#, SQL
         
-        - Moderation team time tracking
+            <br>
+        - <b>Moderation team time tracking</b>
 
             > C#, SQL
-        
-        - Gamified content engagement tools 
+
+            <br>
+        - <b>Gamified content engagement tools<b> 
              
             > C#, Unity3D, SQL
         
-        - Custom role-based automation 
+            <br>
+        - <b>Custom role-based automation</b> 
         
             > C#, SQL
         
-        - Quarantine zones/roles
+            <br>
+        - <b>Quarantine zones/roles</b>
         
             > Discord.Net, C#
         
-        - Community organization/outreach functions
+            <br>
+        - <b>Community organization/outreach functions<b>
         
             > C#, Discord.Net, Google Sheets API, SQL, MailGun
 
@@ -227,19 +257,22 @@ I then took over the duties of the former Principal Software Engineer and was ta
 
     ??? Example "Projects and Accomplishments"
 
-          1. IaC for virtual training lab systems 
+          1. <b>IaC for virtual training lab systems</b> 
           
-                > VMware, VirtualBox, Vagrant, Ubuntu, Windows 7
+            > VMware, VirtualBox, Vagrant, Ubuntu, Windows 7
 
-          -  IaC for bare-metal servers 
+            <br>
+          -  <b>IaC for bare-metal servers</b> 
 
-                > Ubuntu, Ansible, Vagrant, PXE, Clonezilla, AMT, iDrac
+            > Ubuntu, Ansible, Vagrant, PXE, Clonezilla, AMT, iDrac
 
-          - Mobile Device Management and security testing 
+            <br>    
+          - <b>Mobile Device Management and security testing</b> 
           
-                > Samsung Tizen
-
-          - Compatibility patches and scripts 
+            > Samsung Tizen
+            
+            <br>
+          - <b>Compatibility patches and scripts</b> 
           
                 (Linux, bash, xorg, xinput, grub, udev, rc.local)
               

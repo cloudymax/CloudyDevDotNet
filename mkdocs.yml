@@ -88,6 +88,8 @@ nav:
       - Unity Authorizer: game_dev/unity-auth.md
     - /DEV/RANDOM:
       - Code Tests: game_dev/code-tests.md
+      - UIUX Tests: web_dev/uiux.md 
+    #  - ubuntu: web_dev/ubuntu_gaming.md
     #- Linux Notes:
     #  - Script Order: linux/script_order.md
     #  - Ssh-Keys: linux/ssh-keys.md

@@ -4,8 +4,8 @@ Usage
 ```hcl
 #create a keyvault to hold our keys and secrets
 module "tf_azurerm_keyvault" {
-  source         = "tfe.az.fxei.fedex.com/fxei/keyvault/azurerm"
-  version        = "0.0.5"
+  source         = ""
+  version        = ""
   name           = "${var.resource_group}-vault"
   location       = azurerm_resource_group.my-resource-group.location
   resource_group = azurerm_resource_group.my-resource-group.name

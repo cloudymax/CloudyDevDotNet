@@ -32,13 +32,13 @@
             "version": "2.1.2"
         },
         {
-            "name": "terraform-azurerm-assigned-identity",
-            "source": "git::https://4008575:e63668fe515c90050f1d1fb433c57638b0cdf8c3@github.az.fxei.fedex.com/terraform/terraform-azurerm-assigned-identity",
+            "name": "azurerm-assigned-identity",
+            "source": "",
             "version": "None"
         },
         {
             "name": "terraform-azuread-sp-for-rbac",
-            "source": "git::https://4008575:e63668fe515c90050f1d1fb433c57638b0cdf8c3@github.az.fxei.fedex.com/terraform/terraform-azuread-sp-for-rbac",
+            "source": "terraform-azuread-sp-for-rbac",
             "version": "None"
         }
     ],

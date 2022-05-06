@@ -71,7 +71,7 @@ title: "Work Experience"
 </div>
 
 <center>
-[:fontawesome-solid-file-alt: PDF](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[ :fontawesome-solid-file-alt: DocX](https://github.com/cloudymax/main_website/raw/master/docs/images/resumes/Max%20Roby%20Resume.docx){ .md-button .md-button--primary }
+[Download as PDF](https://github.com/cloudymax/resumes/raw/main/latest/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[Download as DocX](https://github.com/cloudymax/resumes/blob/main/latest/Max%20Roby%20Resume.docx?raw=true){ .md-button .md-button--primary }
 </center>
 
 ### FedEx Express

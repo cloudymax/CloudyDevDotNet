@@ -708,6 +708,16 @@ table {
 .md-footer {
 	background: var(--header);
 }
+.md-typeset :is(.admonition, details):is(.example){
+	border-color: var(--pop)
+	
+}
+.md-typeset :is(.example) > :is(.admonition-title, summary){
+	background-color: var(--header)
+}
+.md-typeset :is(.example) > :is(.admonition-title, summary)::before {
+	background-color: var(--pop);
+}
 .md-typeset blockquote {
     border-left: .2rem solid var(--md-default-fg-color--lighter);
     color: var(--text);

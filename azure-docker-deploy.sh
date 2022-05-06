@@ -4,6 +4,10 @@ set -e
 set -u
 set -o pipefail
 
+pip install mkdocs
+pip install mkdocs-material
+brew update && brew install azure-cli
+
 export KIND="StorageV2"
 export LOCATION="westeurope"
 export SUBSCRIPTION="cloudydev.net"
@@ -95,7 +99,8 @@ mkdocs build
 az storage blob upload-batch \
   -s "${SITE_ROOT_FOLDER}" \
   -d '$web' \
-  --account-name="${STORAGE_NAME}"
+  --account-name="${STORAGE_NAME}" \
+  --overwrite
 
 # get the url
 az storage account show \

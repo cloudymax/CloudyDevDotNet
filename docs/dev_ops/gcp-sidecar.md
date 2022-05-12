@@ -24,25 +24,7 @@
         unzip \
         git \
         postgresql postgresql-contrib
-    
-    
-    #install the azure CLI
-    RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
-    
-    
-    #download latest data
-    RUN git init
-    RUN git config core.sparseCheckout true
-    RUN git remote add -f origin https:
-    RUN git checkout Max
-    RUN echo "" >> .git/info/sparse-checkout
-    
-    #update the local repo
-    RUN	git pull origin Max
-    RUN	git read-tree -mu HEAD
-    
-    
-    
+
     #authenticate service account
     RUN gcloud auth activate-service-account "" --key-file="" --project=""
     

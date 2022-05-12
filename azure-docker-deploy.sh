@@ -4,8 +4,8 @@ set -e
 set -u
 set -o pipefail
 
-pip install mkdocs
-pip install mkdocs-material
+pip3 install mkdocs
+pip3 install mkdocs-material
 brew update && brew install azure-cli
 
 export KIND="StorageV2"
@@ -102,13 +102,20 @@ az storage blob upload-batch \
   --account-name="${STORAGE_NAME}" \
   --overwrite
 
+# purge the endpoint if you want updates immidiately
+#az cdn endpoint purge --content-paths
+#                      [--ids]
+#                      [--name]
+#                      [--no-wait]
+#                      [--profile-name]
+#                      [--resource-group]
+
 # get the url
 az storage account show \
   -n "${STORAGE_NAME}" \
   -g "${RG_NAME}" \
   --query "primaryEndpoints.web" \
   --output tsv
-
 }
 
 "$@"

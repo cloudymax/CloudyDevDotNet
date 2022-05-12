@@ -58,12 +58,11 @@ title: "Work Experience"
 </center>
           <p>
           <br>
-            I'm a Full Stack Developer, DevOps Engineer, and Architect with 10+ years experience across multiple segments of the tech industry specializing in Automation, Architecture, and Gamification.
-            <br></br>
-            Currently, I'm developing Cost-Optimized, Hyperconvered, Ephemeral, compute environments that are Fast and Carbon-Neutral. I'm excited to use Computer-Vision, Machine Learning, Digital-Twins, and Renewable Energy Credits to redefine how we work, play, and collaborate with each other in digital spaces.
+            I'm a Full-Stack Developer, DevOps Engineer, and Architect with 11+ years experience across multiple segments of the tech industry specializing in Automation, Architecture, Developer Experience, and Games. I'm passionate about developing Interactive Experiences and Ephemeral Infrastructure with a focus on Sustainability, Decentralization and Performance. I'm excited to use Computer-Vision, Machine Learning, Digital-Twins, and Renewable Energy to redefine how we work, play, and collaborate with each other in digital spaces.
             </br>
             <p>
-            Outside of work, I enjoy learning to cook new foods, watching a backlog of wholesome shows, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p>
+            Outside of work, I enjoy cooking, reading, contributing to open-source projects, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p><br>
+            Let's chat about the cloud and the coolest things you can do with a kilowatt ⚡ </br>
             </p>
             </br>
     </div>
@@ -71,7 +70,7 @@ title: "Work Experience"
 </div>
 
 <center>
-[Download as PDF](https://github.com/cloudymax/resumes/raw/main/latest/Max%20Roby%20Resume.pdf){ .md-button .md-button--primary }[Download as DocX](https://github.com/cloudymax/resumes/blob/main/latest/Max%20Roby%20Resume.docx?raw=true){ .md-button .md-button--primary }
+[Download as PDF](https://raw.githubusercontent.com/cloudymax/resumes/main/latest/Max-Roby-Resume.pdf){ .md-button .md-button--primary }[View Markdown](https://github.com/cloudymax/resumes/blob/main/latest/Max-Roby-Resume.md){ .md-button .md-button--primary }
 </center>
 
 ### FedEx Express

@@ -4,9 +4,12 @@ QEMU is a generic and open source machine emulator and virtualizer. It can be us
 
 The second supported way to use QEMU is __user mode emulation__, where QEMU can launch processes compiled for one CPU on another CPU. In this mode the CPU is always emulated.
 
-After enabling GVT-g in QEMU you must also recompile QEMU with the 60 fps fix to get smooth video. There is no way around this issue as of the time of publishing. I describe how to get this working in the the section “Fix QEMU graphics refresh rate.”
 
 ## Sources
+
+- [Improving the performance of a Windows Guest on KVM/QEMU](https://leduccc.medium.com/improving-the-performance-of-a-windows-10-guest-on-qemu-a5b3f54d9cf5) - leduccc
+
+- [My Magical Adventure With cloud-init](https://christine.website/blog/cloud-init-2021-06-04) - Xe Iaso
 
 - [Faster Virtual Machines in Linux](https://adamgradzki.com/2020/04/06/faster-virtual-machines-linux/)
 
@@ -25,7 +28,7 @@ After enabling GVT-g in QEMU you must also recompile QEMU with the 60 fps fix to
 
 - [install guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
 
-## installation with intel GVT-g
+## Basic cloud-init backed VM
 
 ```bash
 #!/bin/bash

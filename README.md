@@ -1,6 +1,6 @@
 # Static website hosting for ~$0.05 /month
 
-My personal website, hosted in an Azure Storage Blob with a CDN and custom domain.
+How I host my personal site in an Azure Storage Blob. 
 
 ## 1. Install the Azure CLI
 

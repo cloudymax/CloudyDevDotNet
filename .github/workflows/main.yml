@@ -1,0 +1,30 @@
+name: build and push
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install deps
+        run: |
+          pip3 install mkdocs
+          pip3 install mkdocs-material
+          
+      - name: mkdocs build
+        run: mkdocs build
+
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+    
+      - run: |
+          az storage blob upload-batch \
+            -s "site" \
+            -d '$web' \
+            --account-name="cloudydevdata" \
+            --overwrite

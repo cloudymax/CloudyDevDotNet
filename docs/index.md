@@ -22,10 +22,6 @@ hide:
 </head>
  
 <div id=hero>
-  <div class="hero-bg">
-    <video playsinline autoplay muted id="video-bg" class="video-bg">
-    </video>
-  </div>
 </div>
 
 <center><div class="card-container">

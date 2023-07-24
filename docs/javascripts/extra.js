@@ -1,20 +1,20 @@
 let videoSource = new Array();
 // swarm ai test
-videoSource[0] = 'https://thumbs.gfycat.com/SleepyBrownAnkole-mobile.mp4';
+videoSource[0] = 'https://static.videezy.com/system/resources/previews/000/054/376/original/Line_Plexus_Abstract_Network.mp4';
 // Landscape Road
-videoSource[1] = 'https://thumbs.gfycat.com/SereneAcceptableAyeaye-mobile.mp4';
+// videoSource[1] = 'https://thumbs.gfycat.com/SereneAcceptableAyeaye-mobile.mp4';
 // UE4 temple
-videoSource[2] = 'https://thumbs.gfycat.com/AgileOldBuck-mobile.mp4';
+// videoSource[2] = 'https://thumbs.gfycat.com/AgileOldBuck-mobile.mp4';
 // Turret ai
-videoSource[3] = 'https://thumbs.gfycat.com/InbornInnocentCockerspaniel-mobile.mp4';
+// videoSource[3] = 'https://thumbs.gfycat.com/InbornInnocentCockerspaniel-mobile.mp4';
 // grassy sun sweep
-videoSource[4] = 'https://thumbs.gfycat.com/RemarkableGloomyHedgehog-mobile.mp4';
+// videoSource[4] = 'https://thumbs.gfycat.com/RemarkableGloomyHedgehog-mobile.mp4';
 // old pots and rupees
-videoSource[5] = 'https://thumbs.gfycat.com/IllDirectAustraliansilkyterrier-mobile.mp4';
+// videoSource[5] = 'https://thumbs.gfycat.com/IllDirectAustraliansilkyterrier-mobile.mp4';
 // Justice from above
-videoSource[6] = 'https://thumbs.gfycat.com/FemaleFaithfulBorderterrier-mobile.mp4';
+// videoSource[6] = 'https://thumbs.gfycat.com/FemaleFaithfulBorderterrier-mobile.mp4';
 // VR office
-videoSource[7] = 'https://thumbs.gfycat.com/EveryIllinformedCrocodileskink-mobile.mp4';
+// videoSource[7] = 'https://thumbs.gfycat.com/EveryIllinformedCrocodileskink-mobile.mp4';
 
 let i = 0; // global
 const videoCount = videoSource.length;

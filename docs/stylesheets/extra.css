@@ -22,20 +22,20 @@
 	--list-decorator: "> ";
 	--margins: 0%;
 
-	--letter-spacing-f1: 1px;
+	--letter-spacing-f1: .5px;
 	--letter-spacing-f2: 1px;
 
 	--font-size: 18px;
-	--line-height: 24px;
+	--line-height: 20px;
 
 	--title-line-height:  1;
 	--elipsis-multiplier: 1;
-	--header1-multiplier: 1.3;
-	--header2-multiplier: 1.2;
+	--header1-multiplier: 1.2;
+	--header2-multiplier: 1.1;
 	--header3-multiplier: 1;
 	--header4-multiplier: 1;
-	--link-multiplier: 1.1;
-	--emp-multiplier:  1.1;
+	--link-multiplier: 1.0;
+	--emp-multiplier:  1.0;
 	--blockquote-multiplier: 1;
 	--list-multiplier: 1;
 
@@ -90,7 +90,7 @@
 	--header-contrast: rgba(var(--header-contrast-r), var(--header-contrast-g), var(--header-contrast-b), var(--header-contrast-alpha));
 	--header-contrast-brightness: 1;
 
-	--card-bg-alpha: .5;
+	--card-bg-alpha: .7;
 	--card-bg-r:  11;
 	--card-bg-g:  11;
 	--card-bg-b:  11;
@@ -468,10 +468,6 @@ blockquote {
   font-size: calc(var(--font-size) * var(--blockquote-multiplier));
   font-weight: var(--font-weight-text)!important;
 }
-table {
-	border-collapse: collapse;
-	border-color: var(--pop);
-	background-color: var(--code-bg)!important;
 }
 .wrap {
 	width: 200px;
@@ -487,214 +483,7 @@ table {
 .md-icon{
 	color: var(--pop)!important;
 }
-@keyframes lightinout {
-	0%   { --brightness:  55%; }
-	10%  { --brightness:  60%; }
-	20%  { --brightness:  65%; }
-	30%  { --brightness:  70%; }
-	40%  { --brightness:  75%; }
-	50%  { --brightness:  80%; }
-	60%  { --brightness:  85%; }
-	70%  { --brightness:  90%; }
-	80%  { --brightness:  95%; }
-	90%  { --brightness:  100%;}
-	100% { --brightness:  95%; }
-}
- @keyframes lift-up {
-	0%  { --text-y: -1px; }
-	10% { --text-y: -2px; }
-	20% { --text-y: -3px; }
-	30% { --text-y: -4px; }
-	40% { --text-y: -5px; }
-	50% { --text-y: -6px; }
-	60% { --text-y: -7px; }
-	70% { --text-y: -8px; }
-	80% { --text-y: -9px; }
-	90% { --text-y: -10px;}
-	100% { --text-y: -11px;}
-}
- @keyframes march {
-	5% {
-	  text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-	10% {
-	  text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-   20% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-   30% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-   40% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 5px) calc(var(--shadow-y-max) * 5px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.5 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-   50% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 5px) calc(var(--shadow-y-max) * 5px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.5 )),
-	  calc(var(--shadow-x-max) * 6px) calc(var(--shadow-y-max) * 6px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.6 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-   60% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 5px) calc(var(--shadow-y-max) * 5px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.5 )),
-	  calc(var(--shadow-x-max) * 6px) calc(var(--shadow-y-max) * 6px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.6 )),
-	  calc(var(--shadow-x-max) * 7px) calc(var(--shadow-y-max) * 7px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.7 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-   70% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-80% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-90% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
-   }
-100% {
-	text-shadow:
-	  calc(var(--shadow-x-max) * 1px) calc(var(--shadow-y-max) * 1px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1 )),
-	  calc(var(--shadow-x-max) * 2px) calc(var(--shadow-y-max) * 2px) 0 rgba(calc(var(--pop-r) * .9), calc(var(--pop-g) * .9), calc(var(--pop-b) * .9), calc(var(--pop-alpha) / 1.2 )),
-	  calc(var(--shadow-x-max) * 3px) calc(var(--shadow-y-max) * 3px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.3 )),
-	  calc(var(--shadow-x-max) * 4px) calc(var(--shadow-y-max) * 4px) 0 rgba(calc(var(--pop-r) * .8), calc(var(--pop-g) * .8), calc(var(--pop-b) * .8), calc(var(--pop-alpha) / 1.4 )),
-	  calc(var(--shadow-x-max) * 8px) calc(var(--shadow-y-max) * 8px) 0 rgba(calc(var(--shadow-r) * .9), calc(var(--shadow-g) * .9), calc(var(--shadow-b) * .9), calc(var(--shadow-alpha))),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--shadow-r), var(--shadow-g), var(--shadow-b), var(--shadow-alpha)),
-	  calc(var(--shadow-x-max) * 9px) calc(var(--shadow-y-max) * 9px) var(--shadow-radius) rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--shadow-alpha));
- }
-}
-@keyframes fadein {
-	
-	0% { --shadow-alpha: 0%; --brightness: 55%; --text-y: -1px; --shadow-x-max: .1; --shadow-y-max: -.1; }
-
-	10% {--shadow-alpha: 10%; --brightness: 60%; --text-y: -2px; --shadow-x-max: .2; --shadow-y-max: -.2; }
-	20% {
-		--shadow-alpha: 20%;
-		--brightness: 65%;
-		--text-y: -3px;
-		--shadow-x-max: .3;
-		--shadow-y-max: -.3;
-	}
-	30% {
-		--shadow-alpha: 30%;
-		--brightness: 70%;
-		--text-y: -4px;
-		--shadow-x-max: .4;
-		--shadow-y-max: -.4;
-	}
-	40%  {
-		--shadow-alpha: 40%,
-		--brightness: 75%;
-		--text-y: -5px;
-		--shadow-x-max: .5;
-		--shadow-y-max: -.5;
-	  }
-	50%  {
-		--shadow-alpha: 50%;
-		--brightness: 80%;
-		--text-y: -6px;
-		--shadow-x-max: .6;
-		--shadow-y-max: -.6;
-	  }
-	60%  {
-		--shadow-alpha: 60%;
-		--brightness: 85%;
-		--text-y: -7px;
-		--shadow-x-max: .7;
-		--shadow-y-max: -.7;
-	  }
-	70%  {
-		--shadow-alpha: 70%;
-		--brightness: 90%;
-		--text-y: -8px;
-		--shadow-x-max: .8;
-		--shadow-y-max: -.8;
-	  }
-	80%  {
-		--shadow-alpha: 80%;
-		--brightness: 95%;
-		--text-y: -9px;
-		--shadow-x-max: .9;
-		--shadow-y-max: -.9;
-	  }
-	90%  {
-		--shadow-alpha: 90%;
-		--brightness: 100%;
-		--text-y: -10px;
-		--shadow-x-max: 1;
-		--shadow-y-max: -1;
-	   ;}
-	100% {
-		--shadow-alpha: 100%;
-		--brightness: 95%;
-		--text-y: -11px;
-		--shadow-x-max: 1.1;
-		--shadow-y-max: -1.1;
-	   ;}
-}
- @keyframes Gradient {
+@keyframes Gradient {
 	  0% {
 		background-position: 0% 50%;
 	  }
@@ -706,17 +495,17 @@ table {
 	  }
 }
 .md-footer {
-	background: var(--header);
+    background: var(--header)!important;
 }
 .md-typeset :is(.admonition, details):is(.example){
-	border-color: var(--pop)
+    border-color: var(--pop)
 	
 }
 .md-typeset :is(.example) > :is(.admonition-title, summary){
-	background-color: var(--header)
+    background-color: var(--header)
 }
 .md-typeset :is(.example) > :is(.admonition-title, summary)::before {
-	background-color: var(--pop);
+    background-color: var(--pop);
 }
 .md-typeset blockquote {
     border-left: .2rem solid var(--md-default-fg-color--lighter);
@@ -754,7 +543,7 @@ p {
 	font-family: 'Lato', sans-serif;
 	color: var(--header-contrast);
 	z-index: 100;
-	margin: auto; 
+	margin-top: auto; 
 	filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.8));
 	border-radius: var(--border-radius);
 	background-color: var(--card-bg);
@@ -790,44 +579,36 @@ p {
     text-align: center;
 	font-family: 'Lato', sans-serif;
 	font-size: calc(var(--link-multiplier) * var(--font-size));
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-bottom: 0%;
-	padding-top: 0%;
-	line-height: 1%;;	
 }
 .fa-twitter-square, .fa-linkedin-square, .fa-github-square {
-	padding-inline: 5%;
+	padding-inline: 10px;
+        padding-top: 10px;
 	scale: 200%;
 	color: var(--pop);
 }
 .hero-bg {
-	background-image: var(--graydient);
+    background-image: var(--graydient);
     -webkit-transform: translateX(-50%) translateY(-55%);
     -moz-transform: translateX(-50%) translateY(-55%);
     -ms-transform: translateX(-50%) translateY(-55%);
     -o-transform: translateX(-50%) translateY(-55%);
     transform: translateX(-50%) translateY(-55%);
-    position: absolute;
-    top: 47%;
-    left: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -100;
-	overflow: hidden!important;
+    overflow: hidden!important;
 }
 .video-bg {
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    transform: rotate(90deg);
     position: absolute;
-    top: 50%;
-    left: 50%;
-	min-height: 125%;
-	min-width: 125%;
-	overflow: hidden!important;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden!important;
 }
 .md-typeset details{
 	padding-left: 1%;
@@ -856,8 +637,26 @@ p {
 	font-weight: var(--font-weight-h3)!important;
 }
 .md-footer-meta {
-	display: none;
+    display: none;
+	
 }
 .code, .lineos, .highlighttable {
 	font-size: var(--font-size)!important;
+}
+th, td {
+    border: .1px solid var(--card-bg);
+    border-spacing: 0px!important;
+    border-top: 0px!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+}
+.md-typeset__table table:not([class]) td,
+.md-typeset__table table:not([class]) th {
+    padding: 9px;
+}
+.md-typeset__table table:not([class]) {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
 }

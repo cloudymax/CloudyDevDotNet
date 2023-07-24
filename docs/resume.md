@@ -1,495 +1,76 @@
----
-title: "Work Experience"
----
-
-
-<head>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-        h1 {
-          display: none;
-	      font-weight: 600!important;
-        }
-        h2 {
-	      font-weight: 600!important;
-        }
-        h3 {
-	      font-weight: 600!important;
-          line-height: .5!important;
-        }
-        h4 {
-	      font-weight: 600!important;
-          font-size: 12pt!important;
-          line-height: .5!important;
-        }
-        h5 {
-	      font-weight: 600!important;
-          font-size: 10pt!important;
-          text-transform: lowercase!important;
-          line-height: .5!important;
-        }
-        ol, li {
-	      font-weight: 600!important;
-          list-style: none;
-        }
-        strong {
-          font-size: 20px!important;
-	      font-weight: 600!important;
-          list-style: none;
-        }
-        .card-container{
-            background-color: var(--header);
-        }
-     </style> 
-</head>
+<h1>
+    Max Roby
+</h1>
+<p>
+    📧 eMax@cloudydev.net <br> 📞 +31 06 1802 8166
+</p>
 
-<div class="card-container">
-  <div class="card">
+- Specialized in Automation, Vitrtualization, Infrastructure, and Games.
+- Passionate about Hyperconvergence and Open-Source Software.
+- 12+ years experience
 
-  <div class="card-header">
-  </div>
+## Open-Source Projects
 
-  <div class="card-body">
+- [PXEless](https://github.com/cloudymax/pxeless): An automated system install and image customization tool for when PXE is not an option, or is not an option *yet*. *Owner*.
 
-<center>
-  <h3>Max Roby</h3>
-  <h4>Amsterdam, NL</h4>
-</center>
-          <p>
-          <br>
-            I'm a Full-Stack Developer, DevOps Engineer, and Architect with 11+ years experience across multiple segments of the tech industry specializing in Automation, Architecture, Developer Experience, and Games. I'm passionate about developing Interactive Experiences and Ephemeral Infrastructure with a focus on Sustainability, Decentralization and Performance. I'm excited to use Computer-Vision, Machine Learning, Digital-Twins, and Renewable Energy to redefine how we work, play, and collaborate with each other in digital spaces.
-            </br>
-            <p>
-            Outside of work, I enjoy cooking, reading, contributing to open-source projects, and learning about Amsterdam's hidden playgrounds as an examination of discoverability, logistics, and agency in systems design.</p><br>
-            Let's chat about the cloud and the coolest things you can do with a kilowatt ⚡ </br>
-            </p>
-            </br>
-    </div>
-  </div>
-</div>
+- [GameCI](https://game.ci/): The fastest way to build and test your Unity3D game projects. *Maintainer*
 
-<center>
-[Download as PDF](https://raw.githubusercontent.com/cloudymax/resumes/main/latest/Max-Roby-Resume.pdf){ .md-button .md-button--primary }[View Markdown](https://github.com/cloudymax/resumes/blob/main/latest/Max-Roby-Resume.md){ .md-button .md-button--primary }
-</center>
+    Currently working on GPU acceleration and Screen Recording initiatives.
 
-### FedEx Express
+    - [GPU acclelerated container images](https://github.com/buildstar-online/gameci-docker-extras)
+    - [Test Project which consumes the containers](https://github.com/buildstar-online/unity-webgl-nginx)
 
-> __Senior Architect__
->
-> __2020 - Present__
+- [Onboardme](https://github.com/jessebot/onboardme/): Onboardme is an automated dot-file, package-management, and neovim IDE setup tool that lets you provision Linux & Mac devices or dev containers just the way you like them. *Maintainer*
 
-* <p>As Sr. Architect I led efforts to shift FedEx's European co-location and public cloud assets to on-prem and hybrid-cloud following the acquisition of TNT Netherlands. Coordinating with international teams, I developed a golden-path architecture using Ansible, Terraform, Azure Cloud, and VMware Tanzu, which aligned with international business OKRs and key strategic initiatives, specifically: Cost Optimization, Cost Observability, Speed of Service, Security, and Carbon-Neutrality.</p>
+- [Smol k8s Lab](https://github.com/small-hack/smol-k8s-lab): Bare-metal kubernetes with batteries-included using k3s, ingres-nginx, cert-manager and metallb. *Maintainer*
 
-    ??? Example "Projects & Accomplishments"
+## Employment History
 
-          1. <b>Ephemeral On-Prem Hybrid-Cloud Platform</b>
+### Uneti-Labs
 
-            Ansible, Terraform, Azure Arc, VMware Tanzu CE, Cluster API, Azure Kubernetes Service
+*Infrastructure Specialist, 2022 - Present*
 
-            > Building from two directions - Bare-Metal Up and Pubic-CLoud Down - Created a unified container orchestration layer through homogenization of varied hardware and network types using ephemeral identities, infrastructure.
+Provided greenfield engineering internally for Uneti-Ventures and affiliated startups:
 
-            <br>
+- [Medicalvr.eu](https://www.medicalvr.eu/): Lift-and-shift of web product into Azure Cloud using Terraform, Keycloak, Azure Container Service, and Github Actions.
 
-          - <b>Internal Memory-Cache/ORM interface<b>
+- [Ampowr.com](https://ampowr.com/): Edge and Cloud infrastructure for Ampowr's [Cosmos Energy Management System](https://ampowr.com/cosmos-ems/) using Cloud-Init, Wireguard, Docker Compose, OpenEMS, InfluxDB, Github Actions, Terraform, and the Grafana Labs observabilty stack.
 
-            Python, Hazelcast, Postgres, Snap, Ubuntu Core
+- [2Solar.nl](https://2solar.nl/): Migration of MySQL databases into AWS RDS, Implementation of Grafana Labs Obsrvability Stack, and GitLab Pipelines.
 
-            > Broke through a deadlock caused by legacy licensing processes providing a step-change solution in the interim to enable further cloud transformation.
+- [Uneti-Labs](https://uneti-labs.com/): Build and management of [Vast.AI](https://vast.ai/) GPU worker nodes, on-prem CI/CD runners, internal VPNs, and self-service compute/database assets using QEMU/KVM, Cloud-Init, Wireguard, ArgoCD. Kubernetes, and Ansible.
 
-            <br>
-          - <b>Multiple static website generator micro-services</b>
+### FedEx International
 
-            Mkdocs, Jekyll Material, Python, Webpack and the accompanying build/deploy pipelines using Azure, Github, Jenkins, Ansible, Terraform
-            >
-            > Allows multiple teams to automatically generate documentation that is compliant with internal CSS, UX, Branding, and Accessibility standards.
+*Senior Architect, 2020 - 2022*
 
-            <br>
-          - <b>Multiple DBaaS micro-services</b> 
-    
-            MongoDB, Postgres 11, Hazelcast IMDG
+- Led efforts to onboard colocated compute assets acquired from TNT Netherlands to Azure Cloud using Azure Kubernetes Service, VMware Tanzu, Terraform, Ansible, Python, and Go.
 
-            > Provided an approved selection of containerized database/cache products pre-configured and certified for use with internal self-service platform. 
+- Maintained CI/CD runners and pipelines using Terraform, Gitlab Pipelines, Github Actions, and Jenkins.
 
-            <br>
-          - <b>Microservice to dynamically generate Terraform files/HCL objects</b> 
+### STRIVR
 
-            Backend, TFvars, Providers, Versions etc...
+*Senior Platform Engineer, 2019 - 2020*
 
-            > Generated HCL output from json, yaml, or database values allowing the creation/replication of the full azure production AZure Kubernestes as an ephemeral platform. This also enabled the use of terraform to use ephemeral identities in internal pipelines.
+- Automated deployment and management processes of Android HMDs, edge-compute devices, and Google Cloud Platform resources using Ansible, Postgres, Clonezilla, Ubuntu, ADB, C#, and Bash.
 
-            <br>
-          - <b>Multiple Terraform modules</b> 
+- Virtual office environment using C#, Unity3D
 
-            Keyvaults, Secrets, Certificates, Keys, Blob Storage Accounts and Containers, IAM, RBAC, AD Groups, Users, Applications, Identities, AKS clusters, Virtual Machines, and Scale Sets
+### Freelance
 
-            > for use with company IaaC, PaaS, SaaS, and IAM/RBAC products. These modules added or enhanced features of the FedEx Azure cloud platform.
+*Full-Stack Developer 2019 - 2020*
 
-            <br>
-          - <b>Akv2k8s</b>: 
+- Created, deployed, and managed custom Discord bot that assisted political campaign staff with community management, event organization, and compliance tasks for community of ~10k users using C#/.NET and AWS EC2.
 
-            Terraform, Azure Keyvault, Azure Kubernetes Service, Azure Managed Identities, Service Principles, Secrets, Keys, and Certificates.
+- Developed Unity3D interactive experience with personalized easter-eggs for community-members.
 
-            > end-to-end automated test and install to synchronize assets between Azure and Kubernetes using mutating webhooks and init containers. Utilized the Kubernetes Alpha provider to install CRDs required to automate testing
+### Pizza Hut Connect LLC
 
-            <br>
-          - <b>Azure Pod Identity</b>: 
+*Sr. Systems Engineer 2011 - 2019*
 
-            Azure Active Directory, Managed Identities, Azure Kubernetes Service, Terraform
+- Managed the hardware-onboarding, certification, and compliance process for Point-of-Sale and other hardware for Pizza Hut's proprietary restaraunt management software suite using Bash, VirtualBox, Clonezilla, Ubuntu, SUSE, & Windows.
 
-            > end-to-end test and install of aad-pod-identity, a project allowing Kubernetes clusters to access cloud resources, and teams access k8s using Azure Active Directory. Also utilized the Kubernetes Alpha provider for installing custom CRDs to automate testing
+- Wrote Inventory and Payroll CLI tools, Android apps using Java and Bash.
 
+- Built Interractive training tools and data visualizations using Unity3D, C#.
 
-
-
-### STRIVR Labs
-
-> __Senior Platform Engineer__
->
-> __2019 - 2020__
-
-- As a Senior Platform Engineer, I was originally responsible for developing a new support and RMA process for the growing Virtual Reality startup. My primary focus was the development of automation and software to relieve delays VR Headset and SoC repair.
-I then took over the duties of the former Principal Software Engineer and was tasked with using the tools and learnings from my previous assignment to optimize and enhance Ci/Cd, IaC, and embedded capabilities of the cloud platform to capitalize on changes to the market.
-
-    ??? Example "Projects and Accomplishments"
-
-
-        1. <b>Automated Hardware RMA software</b>
-        
-            Ansible, #Bash, GCP, PSQL
-        
-            > Increased RMA throughput by automating diagnostics, troubleshooting, documentation, reporting and inventory of damaged, returned Linux SOC edge compute units and Oculus/Pico VR HMDs.
-
-            <br>
-        - <b>Cloud Resource Lifecycle Management</b> 
-        
-            Python, #Bash, Ansible, Terraform, Docker, GCP
-
-            > Managed all corporate and client cloud infrastructure on GCP, and entire physical fleet of linux SOC edge compute units and Virtual Reality headsets.
-
-            <br>
-        - <b>Virtual Office</b> 
-        
-            Unity3d, C#, .Net, Ubuntu, redis, postgres, GCP
-
-            > Tool allowing employees to create their own customizable VR office space, share it with friends, and export a custom Zoom background.
-
-            <br>
-        - <b>Cross-Training</b> 
-          
-            Unity 3D, Clonezilla, Grub, WSL, Ubuntu
-
-            > Trained other Engineers on technology used in other parts of the stack which helped enable isolated teams, leading to better remote collaboration between Seattle Development and California Warehouse groups.
-
-            <br>
-        - <b>Redesigned content deployment backend</b>
-        
-            Python, shell, docker, Postgres 9, GCP, Ansible 
-          
-            > Reduced time to deploy from weeks to less than 10 minutes by automating handoffs and establishing processes with SLAs for remaining stakeholders.
-
-            <br>
-        - <b>Automated Security Scanning</b>
-        
-            > Snyk, Docker, Trivy, Ansible.
-
-            <br>
-        - <b>Linux SoC system image build and upgrade</b> 
-        
-            > Ubuntu Pre-Seed, Cloud-init, Vagrant, Clonezilla and Ansible.
-
-            <br>
-        - <b>Logging scripts for dashboards and alerting</b>   
-          
-            > Stackdriver, Compute, Storage, Ansible, Bash, Python.
-
-
-
-### Political Campaign
-
-> __Full-Stack Developer__
->
-> __2019 - 2020__
-
-- Approached by Collins campaign who wanted to use a free discord bot I had recently developed for gaming communities  (C#, .Net Core, Discord.Net, AWS EC2, S3, IAM, SQL), but also expand the features for use in an activist community (SQL, Wix, Google Sheets). The bot allowed users to vote on topics, posts, and content - awarding eachother points for various activities. In this role, I added the following features for the clients needs:
-
-    ??? Example "Feature additions"
-
-        1. <b>User data persistence</b> 
-
-            > S3, google sheets, C#, SQL
-        
-            <br>
-        - <b>Moderation team time tracking</b>
-
-            > C#, SQL
-
-            <br>
-        - <b>Gamified content engagement tools<b> 
-             
-            > C#, Unity3D, SQL
-        
-            <br>
-        - <b>Custom role-based automation</b> 
-        
-            > C#, SQL
-        
-            <br>
-        - <b>Quarantine zones/roles</b>
-        
-            > Discord.Net, C#
-        
-            <br>
-        - <b>Community organization/outreach functions<b>
-        
-            > C#, Discord.Net, Google Sheets API, SQL, MailGun
-
-### Pizza Hut
-
-> __Systems Engineer__
->
-> __2011 - 2019__
- 
-  - As a Systems Engineer at Pizza Hut, I worked directly with the Principle Architect to guide decisions on hardware purchasing and Technology Road-Map development. I also served as the primary East US point-of-contact for manufacturers and partners. I developed, executed and evangelized a standardized process for hardware onboarding evaluations, PoCs, and resolution of hardware and software level issues for an equipment footprint of over 50,000+ units and able to boast $10,000,000+ of negated hardware replacement costs during my tenure.
-
-- Pizza Hut Connect LLC
-
-    ??? Example "Projects and Accomplishments"
-
-          1. <b>IaC for virtual training lab systems</b> 
-          
-            > VMware, VirtualBox, Vagrant, Ubuntu, Windows 7
-
-            <br>
-          -  <b>IaC for bare-metal servers</b> 
-
-            > Ubuntu, Ansible, Vagrant, PXE, Clonezilla, AMT, iDrac
-
-            <br>    
-          - <b>Mobile Device Management and security testing</b> 
-          
-            > Samsung Tizen
-            
-            <br>
-          - <b>Compatibility patches and scripts</b> 
-          
-                (Linux, bash, xorg, xinput, grub, udev, rc.local)
-              
-                > certified functionality of all new hardware entering Pizza Hut ecosystem which reduced the cost of entry for new franchisees and extended the life of hardware.
-
-
-          - Internal Mobile App 
-          
-              (Android, Android Studio, Java)
-              
-              > Allowed user to interact with proprietary software over PCI compliant wireless APs used by 1000+ management-level employees.
-
-
-          - Interactive network and hardware visualization program 
-          
-              (Unity 3D, C#, Bash, Python/Ansible, SQL, Ubuntu) 
-              
-              > A "Virtual Agent" which mapped, monitored, and diagnosed issues with store networks and hardware, identified biggest call-drivers for the help-desk and interfaced with ticketing systems. Users dynamically received on-screen, step-by-step instructions on how to resolve many common hardware and network issues without the need to contact an agent.
-
-          - Windows image creation
-            
-              (Windows 7, 8, 10, registry, chocolaty, powershell) 
-              
-              > optimized for low-memory devices and PCI compliance.
-
-
-- Pizza Hut of America
-
-
-    ??? Example "Projects and Accomplishments"
-
-        1. Directed OS migration hardware compatibility testing 
-        
-            (Xorg, Xinput, grub, drivers) and certification of point-of-sale hardware and peripherals (servers, terminals,touchscreens, signage)
-
-
-        - Maintained and contributed to GM build pipeline 
-        
-            > Bash, Powershell, Ansible, Vagrant) for Linux and Windows images
-
-
-        - Setup and Deployment of remote servers 
-        
-            > PXE, Clonezilla, Acronis, Ansible, and Intel AMT.
-
-
-        - Performed system component performance benchmarking 
-        
-            (Linux, Bash, SQL, Vagrant)
-          
-            > Used this data to guide hardware purchasing decisions for upgrade/replacement strategies.
-
-
-        - Brand-standards enforcement and hardware life-cycle management reporting microservice 
-        
-            (JavaScript, HTML, CSS, Python, flask) 
-            
-            > converted internal documentation formats to markdown and wiki formats then migrated them to github.
-
-
-- Pizza Hut Inc
-
-    ??? Example "Projects and Accomplishments"
-
-        1. Created new Help-Desk analyst KPIs and metrics
-        
-            (SQL, Cisco Agent, BMC Remedy, Excel) 
-          
-            > Vastly improved clarity of employee performance and reporting granularity.
-
-
-        - Gamified leader-board 
-        
-            (Unity3D, C#, SQL, Cisco Agent, BMC Remedy) 
-            
-            > Also delivered training materials to supplement KPI and metrics system driving the leader-board to increase transparency..
-
-
-        - Automated troubleshooting tools
-        
-            (Linux,Java,Bash) 
-            
-            > Enabled Help-Desk employees to resolve non-technical, call-driving issues identified by leadership as resource intensive(Payroll, Inventory, Reporting, Ideal-usage, Labor)
-
-
-        - Mentored and trained L1 Help-Desk employees 
-        
-            > Linux,proprietary software (Java, SQL, bash), point-of-sale hardware, servers, and network equipment
-            
-        - Alert Monitoring and Response
-        
-            (Solarwinds)
-         
-            > Troubleshot, and resolved network issues with external help desks and vendors.
-
-
-        - Remote point-of-sale hardware management
-        
-            (Terminals, AIO devices, printers, cash registers, switches, routers)
-            
-            > 4000+ sites.
-
-
-        - Senior Analyst for RMA/advanced exchange process 
-        
-            > Managed lifecycle, and SLA with hardware vendors and service providers
-
-
-        - Managed network reliability monitoring 
-        
-            > For remote sites as part of a team working with SolarWinds alerting and Sonicwall APs.
-
-
-        - Contributed to proprietary business codebase 
-        
-              (Java, Bash, Linux, SQL, Windows) 
-              
-              > Added features and authored tools for payroll, inventory, cash management, training, scheduling that were utilized by managers and employees daily in-stores.
-
-
-
-### Independent Developer
-
-> __Various__
->
-> __2009 - 2019__
-
-- Over the years I've worked on many projects outside of my day-job: Pro-bono, hobby, consultation, or on commission. Here's some of my favorites:
-
-    ??? Example "Projects and Accomplishments"
-
-        1. Skyrim lighting mod
-        
-            (ENB, Nexus mods, OpenGL, C#)
-            
-            > Increased the visual fidelity of the game experience and resolved bug in the default eye-adaptation post-processing effect implementation on AMD crossfire.
-
-
-        - Skyrim free-camera mod 
-            
-            (Papyrus) 
-            
-            > Allow manual camera DoF, lighting, ToD, and smoother movement for video/photo capture of game-play.
-
-
-          - World of Warcraft Mod 
-          
-              (Lua, WeakAuras) 
-              
-              > Allow players to live out their Initial-D drifting dreams by playing euro-beat music and displaying animated speed lines in the UI whenever a speed-boost was detected as active on the player.
-
-
-          - Volumetric reverb and sound occlusions system 
-          
-              (Unity3D, C#) 
-              
-              > based on a talk by David Sirland of Dice and methods used in Battlefield 3 to create realistic positional audio. System captures data about surrounding geometry and sound sources to determine the appropriate level and type of reverb to use as well as realistically occludes sounds based on line of sight, distance, and position.
-
-
-          - Spline-based particle animation system
-            
-              (C#, Unity3D) 
-                
-              > Based on multiple GDC talks which combines a guided-generation spline system, scriptableobjects, and animation curve data to rapidly create and iterate on game assets while specifically paying attention to proper use of animation principles(squash, anticipation, timing etc...)
-
-
-          - Unity 3d Input wrapper 
-              
-              (C#, Unity3D, DirectInput) 
-                
-              > Allowed keyboard/game pad control schemes to be altered, created, saved by users at runtime in Unity3D. Provided enhancements such as: device agnostic syntax, per-axis sensitivity and dead-zone configuration, rumble support, ability to track active/inactive inputs, duration of inputs, and combinations/order of concurrent of inputs.
-
-### Music Technologist
-
-> __Louisville, Ky__
->
-> __2006 - 2016__
-
-- As a Technologist, Composer, and Musician, I performed and recorded with multiple musical acts in the Louisville area during the late 2000's.
-
-    ??? Example "Projects and Accomplishments"
-
-        - Music Composition and Production 
-
-            (Ableton Live, Fruity Loops Studio, Reason)
-
-            > Used Digital Audio Workstation software, VSTs, audio interfaces and a host of other equipment to record, level and mix client performances in live or studio environments.
-
-        - Studio design, mixing 
-
-            Student (Bizianes Music)
-
-            > Learned studio construction and operation at Biazianes Music Studio as part of Music Technology studies.
-
-        - Live and Studio Performance 
-
-            (Guitar, Bass, Percussion)
-
-            > Performed and recorded with multiple acts in the Louisville, KY area.
-
-        - Live Sound and Live Recording 
-
-            > Provided equipment setup and recording services for local musical and cultural events in Louisville, Ky as a part of student and professional organizations.
-
-        - Taste of Chaos Tour and Brewery Thunderdome appearances 
-
-            > 2009 - AFTS - Guitarist/Composer
-
-        - Wolf-Howl Award 
-
-            "Best Original Sound Design" 
-
-            > (Dragon’s Eye Productions - Furcadia) [Listen on Soundcloud](https://soundcloud.com/deserializeme/halloween-rpg-music)
-
-        - Sound Design and Composition 
-
-            > Facebook Slots - Cat’s Eye Productions [Listen on Soundcloud](https://soundcloud.com/deserializeme/freespin)
-
-        - Reddit.com/r/GameAudio 
-
-            > Community sound-design challenge organizer [Listen on Soundcloud](https://soundcloud.com/deserializeme/untitled)

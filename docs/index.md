@@ -5,44 +5,25 @@ hide:
   - navigation
 ---
 
+# ☁️ CloudyDev.Net ☁️
 
-<head>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-        h1 {
-          display: none;
-        }
-        .card-container {
-	        margin-left: 20%;
-          margin-right: 20%;
-          margin-top: 10%;  
-        }
-    </style> 
-</head>
- 
-<div id=hero>
-</div>
 
-<center><div class="card-container">
-  <div class="card">
+Open Source Projects:
 
-  <div class="card-header">
-  <h3>Hi, I'm Max</h3>
-  </div>
+- [PXEless](https://github.com/cloudymax/pxeless)
+- [GameCI](https://game.ci/)
+- [smol-k8s-lab](https://github.com/small-hack/smol-k8s-lab)
+- [Onboardme](https://github.com/jessebot/onboardme/)
 
-  <div class="card-body">
-          <p>
-          These are my personal projects 🥳 
-          </br>
-          Additional gifs, code, and memes
-          await those who follow the links below ✨
-          </p>
-          </br>
-    </div>
-    <div class="card-links">
-      <a href="https://www.github.com/cloudymax"><i class="fa fa-github-square"></i></a> <a href="https://www.linkedin.com/in/cloudymax"><i class="fa fa-linkedin-square"></i></a>
-    </div>
-      </br>
-  </div>
-</div></center>
+Organizations:
+
+- [Small Hack](https://github.com/orgs/small-hack/repositories)
+- [GameCI](https://github.com/game-ci)
+- [Build⭐️ Online](https://github.com/buildstar-online/)
+
+About Me:
+
+- [Github Profile](https://github.com/cloudymax/)
+- [Resume](resume.md)
+
+

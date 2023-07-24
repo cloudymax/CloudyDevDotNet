@@ -1,13 +1,22 @@
-<h1>
-    Max Roby
-</h1>
-<p>
-    📧 eMax@cloudydev.net <br> 📞 +31 06 1802 8166
-</p>
+# Max Roby
 
 - Specialized in Automation, Vitrtualization, Infrastructure, and Games.
 - Passionate about Hyperconvergence and Open-Source Software.
 - 12+ years experience
+
+## Preferred Tools
+
+|Purpose|Name|
+|---|---|
+|Operating Systems|Debian, Ubuntu|
+|Configuration Management| Terraform, Ansible, Cloud-Init |
+|Virtual Machines|QEMU, KVM, Kubevirt, Multipass|
+|Obervability | Grafana, Prometheus, Loki|
+|Orchestration| Kubernetes, Docker Compose|
+|Languages| C#, Python, Go, Bash|
+|Front-End| Untiy3D, CSS, HTML, JavaScript |
+|CI/CD| ArgoCD, Github Actions, Gitlab Pipelines|
+|Clouds providers| Azure, GCP, AWS, Hetzner, Equinix |
 
 ## Open-Source Projects
 

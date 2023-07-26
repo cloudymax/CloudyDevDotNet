@@ -5,25 +5,17 @@ hide:
   - navigation
 ---
 
-# ☁️ CloudyDev.Net ☁️
+<center>
+# CloudyDev
+<br>
 
+Hi, I'm Max
 
-Open Source Projects:
+I make ☁️ and 🎮 stuff with 🐳 in 🇳🇱
+</center>
 
-- [PXEless](https://github.com/cloudymax/pxeless)
-- [GameCI](https://game.ci/)
-- [smol-k8s-lab](https://github.com/small-hack/smol-k8s-lab)
-- [Onboardme](https://github.com/jessebot/onboardme/)
+<br>
 
-Organizations:
-
-- [Small Hack](https://github.com/orgs/small-hack/repositories)
-- [GameCI](https://github.com/game-ci)
-- [Build⭐️ Online](https://github.com/buildstar-online/)
-
-About Me:
-
-- [Github Profile](https://github.com/cloudymax/)
-- [Resume](resume.md)
+<center>
 
 

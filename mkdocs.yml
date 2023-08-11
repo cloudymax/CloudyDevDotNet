@@ -3,13 +3,13 @@ site_url: https://cloudydev.net
 theme:
   name: material
   font:
-    text: Lato
-    code: Inconsolata
+    #text: Lato
+    #code: Inconsolata
   features:
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.indexes
-  - toc.integrate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: max-dark
@@ -22,12 +22,12 @@ theme:
         icon: material/toggle-switch-off-outline
         name: switch to dark mode
 extra_css:
-  - stylesheets/extra.css
+   - stylesheets/extra.css
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - javascripts/extra.js
+  #- javascripts/extra.js
 markdown_extensions:
   - tables
   - abbr
@@ -63,34 +63,11 @@ markdown_extensions:
 nav:
     - Home: index.md
     - About Me: resume.md
-    - DevOps:
-      - Virtualization: 
-        - Cloud-init: dev_ops/README.md
-        - Multipass: dev_ops/multipass.md
-        - Firecracker: dev_ops/firecracker.md
-        - Qemu: dev_ops/qemu.md
-        - Virtualbox: dev_ops/virtualbox.md
-      - Databases:
-        - Hazelcast: dev_ops/hazelcast.md
-        - MongoDB: dev_ops/mongodb.md
-        - GCP Sidecar: dev_ops/gcp-sidecar.md
-#        - Prisma: dev_ops/prisma.md
-#        - Glusterfs: dev_ops/glusterfs.md
-      - Documentation:
-        - Mkdocs: dev_ops/mkdocs.md
-        - Just The Docs: dev_ops/justthedocs.md
-      - Platforms:
-        - FireBase: dev_ops/firebase.md
-    - GameDev Notes: 
+    - FOSS Projects:
+      - PXEless: https://github.com/cloudymax/pxeless/blob/develop/README.md
+      - Spot Price Notes: https://github.com/cloudymax/spot-prices/blob/main/README.md
+      - Unity3D Self-Authorizer: https://github.com/buildstar-online/unity-self-auth/blob/main/README.md
+      - Mod-Security Grafana Dashboard: https://github.com/cloudymax/modsecurity-dashboard/blob/main/README.md
       - Splines: game_dev/splines.md
       - Virtual Office: game_dev/virtual-office.md
-      - Word-Art Generator: game_dev/word-art.md
-      - Unity Authorizer: game_dev/unity-auth.md
-    - /DEV/RANDOM:
-      - Code Tests: game_dev/code-tests.md
-      - UIUX Tests: web_dev/uiux.md 
-    #  - ubuntu: web_dev/ubuntu_gaming.md
-    #- Linux Notes:
-    #  - Script Order: linux/script_order.md
-    #  - Ssh-Keys: linux/ssh-keys.md
-    #  - Bootable USB: linux/bootable-usb.md
+      - Word-Art Generator: https://github.com/cloudymax/art_generator/blob/main/README.md

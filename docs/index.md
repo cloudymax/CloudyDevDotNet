@@ -12,6 +12,9 @@ hide:
 Hi, I'm Max
 
 I make ☁️ and 🎮 stuff with 🐳 in 🇳🇱
+
+[Github](https://github.com/cloudymax) / [LinkedIn](https://www.linkedin.com/in/cloudymax/)
+
 </center>
 
 <br>

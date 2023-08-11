@@ -63,11 +63,25 @@ markdown_extensions:
 nav:
     - Home: index.md
     - About Me: resume.md
-    - FOSS Projects:
-      - PXEless: https://github.com/cloudymax/pxeless/blob/develop/README.md
-      - Spot Price Notes: https://github.com/cloudymax/spot-prices/blob/main/README.md
-      - Unity3D Self-Authorizer: https://github.com/buildstar-online/unity-self-auth/blob/main/README.md
-      - Mod-Security Grafana Dashboard: https://github.com/cloudymax/modsecurity-dashboard/blob/main/README.md
+    - Terraform:
+      - Azure: https://github.com/buildstar-online/azure-tf-starter
+      - GCP: https://github.com/buildstar-online/gcp-tf-starter 
+      - Equinix: https://github.com/buildstar-online/modules-equinix-tf-spot
+      - Hetzner: https://github.com/small-hack/modules-hetzner-tf-vm
+      - AWS: https://github.com/buildstar-online/modules-aws-ec2 
+      - Spot Price Notes: https://github.com/cloudymax/spot-prices/
+    - Unity3D: 
+      - WebGL on Nginx: https://github.com/buildstar-online/unity-webgl-nginx
+      - GPUs on GameGI: https://github.com/buildstar-online/gameci-docker-extras
       - Splines: game_dev/splines.md
       - Virtual Office: game_dev/virtual-office.md
-      - Word-Art Generator: https://github.com/cloudymax/art_generator/blob/main/README.md
+      - Unity3D Self-Authorizer: https://github.com/buildstar-online/unity-self-auth/
+    - Cloud-Init:
+      - Templates: https://github.com/buildstar-online/cloud-init-templates
+      - Generator: https://github.com/buildstar-online/cloud-init-generator
+      - PXEless: https://github.com/cloudymax/pxeless/
+      - Scrap-Metal: https://github.com/cloudymax/Scrap-Metal
+      - Kubevirt: https://github.com/small-hack/argocd-apps/tree/main/kubevirt
+    - Other Projects:
+      - Mod-Security Grafana Dashboard: https://github.com/cloudymax/modsecurity-dashboard/
+      - Word-Art Generator: https://github.com/cloudymax/art_generator/

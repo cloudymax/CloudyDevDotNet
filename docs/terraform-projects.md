@@ -1,5 +1,8 @@
 # Terraform Projects
 
+Terraform is the industry standard for IAC tooling when interracting with cloud-provider apis.
+I've had to stand up so many terraform projects over the years that it become a besessity to maintain my own set of FOSS template projects that I can re-use as needed.
+
 ## Azure
 
 - [Starter Project](https://github.com/buildstar-online/azure-tf-starter)

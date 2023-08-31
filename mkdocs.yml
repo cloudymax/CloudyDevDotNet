@@ -3,8 +3,8 @@ site_url: https://cloudydev.net
 theme:
   name: material
   font:
-    #text: Lato
-    #code: Inconsolata
+    text: Lato
+    code: Inconsolata
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -27,7 +27,7 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  #- javascripts/extra.js
+  - javascripts/extra.js
 markdown_extensions:
   - tables
   - abbr
@@ -63,16 +63,9 @@ markdown_extensions:
 nav:
     - Home: index.md
     - About Me: resume.md
-    - Terraform: 
-      - terraform-projects.md 
-    - Unity3D: 
-      - unity-projects.md
-    - Cloud-Init:
-      - Templates: https://github.com/buildstar-online/cloud-init-templates
-      - Generator: https://github.com/buildstar-online/cloud-init-generator
-      - PXEless: https://github.com/cloudymax/pxeless/
-      - Scrap-Metal: https://github.com/cloudymax/Scrap-Metal
-      - Kubevirt: https://github.com/small-hack/argocd-apps/tree/main/kubevirt
+    - Terraform: terraform-projects.md 
+    - Unity3D: unity-projects.md
+    - Cloud-Init: cloud-init.md
     - Other Projects:
       - Mod-Security Grafana Dashboard: https://github.com/cloudymax/modsecurity-dashboard/
       - Word-Art Generator: https://github.com/cloudymax/art_generator/

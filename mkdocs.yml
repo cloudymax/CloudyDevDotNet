@@ -22,7 +22,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: switch to dark mode
 extra_css:
-   - stylesheets/extra.css
+  - stylesheets/extra.css
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -63,19 +63,10 @@ markdown_extensions:
 nav:
     - Home: index.md
     - About Me: resume.md
-    - Terraform:
-      - Azure: https://github.com/buildstar-online/azure-tf-starter
-      - GCP: https://github.com/buildstar-online/gcp-tf-starter 
-      - Equinix: https://github.com/buildstar-online/modules-equinix-tf-spot
-      - Hetzner: https://github.com/small-hack/modules-hetzner-tf-vm
-      - AWS: https://github.com/buildstar-online/modules-aws-ec2 
-      - Spot Price Notes: https://github.com/cloudymax/spot-prices/
+    - Terraform: 
+      - terraform-projects.md 
     - Unity3D: 
-      - WebGL on Nginx: https://github.com/buildstar-online/unity-webgl-nginx
-      - GPUs on GameGI: https://github.com/buildstar-online/gameci-docker-extras
-      - Splines: game_dev/splines.md
-      - Virtual Office: game_dev/virtual-office.md
-      - Unity3D Self-Authorizer: https://github.com/buildstar-online/unity-self-auth/
+      - unity-projects.md
     - Cloud-Init:
       - Templates: https://github.com/buildstar-online/cloud-init-templates
       - Generator: https://github.com/buildstar-online/cloud-init-generator

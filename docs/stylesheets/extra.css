@@ -426,7 +426,7 @@ strong, emp {
 .md-ellipsis {
 	font-size: calc(var(--elipsis-multiplier) * var(--font-size));
 	font-weight: var(--font-weight-link);
-	color: var(--header-contrast);
+	color: var(--header);
 }
 .md-nav__link--active {
 	color: var(--text);

@@ -399,7 +399,7 @@ strong, emp {
 	background-color: var(--header);
 }
 .md-nav__link, a.md-button:active {
-	color: var(--header)!important;
+	color: var(--header);
 	font-weight: var(--font-weight-text);
 }
 .md-button {
@@ -411,7 +411,7 @@ strong, emp {
 }
 .md-nav__title {
 	background: var(--bg)!important;
-	color: var(--pop)!important;
+	color: var(--header)!important;
 	padding-left: 5%!important;
 	padding-top: 2%;
 	padding-bottom: 2%;

@@ -66,6 +66,5 @@ nav:
     - Terraform: terraform-projects.md 
     - Unity3D: unity-projects.md
     - Cloud-Init: cloud-init.md
-    - Other Projects:
-      - Mod-Security Grafana Dashboard: https://github.com/cloudymax/modsecurity-dashboard/
-      - Word-Art Generator: https://github.com/cloudymax/art_generator/
+    - Kubernetes Stuff: kubernetes.md
+    - Virtual Machines: virtualmachines.md

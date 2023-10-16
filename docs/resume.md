@@ -24,11 +24,6 @@
 
 - [GameCI](https://game.ci/): The fastest way to build and test your Unity3D game projects. *Maintainer*
 
-    Currently working on GPU acceleration and Screen Recording initiatives.
-
-    - [GPU acclelerated container images](https://github.com/buildstar-online/gameci-docker-extras)
-    - [Test Project which consumes the containers](https://github.com/buildstar-online/unity-webgl-nginx)
-
 - [Onboardme](https://github.com/jessebot/onboardme/): Onboardme is an automated dot-file, package-management, and neovim IDE setup tool that lets you provision Linux & Mac devices or dev containers just the way you like them. *Maintainer*
 
 - [Smol k8s Lab](https://github.com/small-hack/smol-k8s-lab): Bare-metal kubernetes with batteries-included using k3s, ingres-nginx, cert-manager and metallb. *Maintainer*

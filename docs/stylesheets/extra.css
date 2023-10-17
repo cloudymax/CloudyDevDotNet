@@ -1,5 +1,8 @@
 :root {
 
+  --md-text-font:"Mononoki";
+  --md-code-font:"Moninoki Mono"
+
   /* Grays */
   --transparent: rgba(0,0,0,0);
   --gray-50: rgba(20, 20, 20, 1);
@@ -16,7 +19,7 @@
   --gray-10-hex: #fafafaff;
 
 
-	--gloabl-padding: .5%;
+	--gloabl-padding: 0;
 	--header-padding: 0;
 	--list-padding: .5%;
 	--list-decorator: "> ";
@@ -25,13 +28,13 @@
 	--letter-spacing-f1: .5px;
 	--letter-spacing-f2: 1px;
 
-	--font-size: 18px;
-	--line-height: 20px;
+	--font-size: 20px;
+	--line-height: 22px;
 
 	--title-line-height:  1;
 	--elipsis-multiplier: 1;
-	--header1-multiplier: 1.2;
-	--header2-multiplier: 1.1;
+	--header1-multiplier: 1;
+	--header2-multiplier: 1;
 	--header3-multiplier: 1;
 	--header4-multiplier: 1;
 	--link-multiplier: 1.0;
@@ -215,8 +218,8 @@
 }
 [data-md-color-scheme="max-dark"]  {
 	--bg-alpha: 1;
-	--bg-r: 20;
-	--bg-g: 20;
+	--bg-r: 25;
+	--bg-g: 25;
 	--bg-b: 25;
 	--bg: rgba(var(--bg-r), var(--bg-g), var(--bg-b), var(--bg-alpha));
 
@@ -233,9 +236,9 @@
 	--bg-repeat: yes;
 
 	--header-alpha: 1;
-	--header-r:     215;
-	--header-g:     210;
-	--header-b:     210;
+	--header-r:     200;
+	--header-g:     200;
+	--header-b:     200;
 	--header: rgba(var(--header-r), var(--header-g), var(--header-b), var(--header-alpha));
 	--header-brightness: 1;
 
@@ -266,9 +269,9 @@
     --primary: rgba(var(--primary-r), var(--primary-g), var(--primary-b), var(--primary-alpha));
 
 	--pop-alpha: 1;
-	--pop-r: 050;
+	--pop-r: 060;
 	--pop-g: 120;
-	--pop-b: 180;
+	--pop-b: 200;
 	--pop: rgba(var(--pop-r), var(--pop-g), var(--pop-b), var(--pop-alpha));
 	
 

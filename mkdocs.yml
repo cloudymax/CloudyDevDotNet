@@ -2,9 +2,7 @@ site_name: Cloudy Stuff
 site_url: https://cloudydev.net
 theme:
   name: material
-  font:
-    text: Lato
-    code: Inconsolata
+  font: false
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -23,6 +21,7 @@ theme:
         name: switch to dark mode
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/fonts.css
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -62,9 +61,5 @@ markdown_extensions:
   - pymdownx.tilde
 nav:
     - Home: index.md
-    - About Me: resume.md
-    - Terraform: terraform-projects.md 
-    - Unity3D: unity-projects.md
-    - Cloud-Init: cloud-init.md
-    - Kubernetes Stuff: kubernetes.md
-    - Virtual Machines: virtualmachines.md
+    - Professional Info: resume.md
+

@@ -2,21 +2,21 @@
 
 - Specialized in Automation, Vitrtualization, Infrastructure, and Games.
 - Passionate about Hyperconvergence and Open-Source Software.
-- 12+ years experience
+- 13+ years experience
 
 ## Preferred Tools
 
 |Purpose|Name|
 |---|---|
 |Operating Systems|Debian, Ubuntu|
-|Configuration Management| Terraform, Ansible, Cloud-Init |
-|Virtual Machines|QEMU, KVM, Kubevirt, Multipass|
-|Obervability | Grafana, Prometheus, Loki|
+|Configuration Management| Terraform, Ansible, Cloud-Init, Crossplane|
+|Virtual Machines|QEMU, KVM, Kubevirt, Multipass, vSphere|
+|Obervability | Grafana, Prometheus, Loki, Thanos|
 |Orchestration| Kubernetes, Docker Compose|
 |Languages| C#, Python, Go, Bash|
 |Front-End| Untiy3D, CSS, HTML, JavaScript |
-|CI/CD| ArgoCD, Github Actions, Gitlab Pipelines|
-|Clouds providers| Azure, GCP, AWS, Hetzner, Equinix |
+|CI/CD| ArgoCD & Worflows, Github Actions, Gitlab Pipelines|
+|Platforms| Bare-Metal, Azure, GCP, AWS, Hetzner, Equinix|
 
 ## Open-Source Projects
 
@@ -30,9 +30,15 @@
 
 ## Employment History
 
+### Guerrilla Games
+
+*Principal Devops Engineer, 2023 - Present*
+
+Working on the Horizon Online project
+
 ### Uneti-Labs
 
-*Infrastructure Specialist, 2022 - Present*
+*Infrastructure Specialist, 2022 - 2023*
 
 Provided greenfield engineering internally for Uneti-Ventures and affiliated startups:
 

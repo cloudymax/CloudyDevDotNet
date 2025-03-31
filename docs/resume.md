@@ -28,6 +28,8 @@
 
 - [Smol k8s Lab](https://github.com/small-hack/smol-k8s-lab): Bare-metal kubernetes with batteries-included using k3s, ingres-nginx, cert-manager and metallb. *Maintainer*
 
+- [Kubevirt-Community-Stack](https://github.com/cloudymax/kubevirt-community-stack/) A gitops-friendly implimentation of Kubevirt + cloud-init integration for use with ArgoCD & Argo Workflows.
+
 ## Employment History
 
 ### Guerrilla Games
@@ -42,9 +44,9 @@ Working on the Horizon Online project
 
 Provided greenfield engineering internally for Uneti-Ventures and affiliated startups:
 
-- [Medicalvr.eu](https://www.medicalvr.eu/): Lift-and-shift of web product into Azure Cloud using Terraform, Keycloak, Azure Container Service, and Github Actions.
+- [Surgical Reality](https://www.medicalvr.eu/): Lift-and-shift of web product into Azure Cloud using Terraform, Keycloak, Azure Container Service, and Github Actions.
 
-- [Ampowr.com](https://ampowr.com/): Edge and Cloud infrastructure for Ampowr's [Cosmos Energy Management System](https://ampowr.com/cosmos-ems/) using Cloud-Init, Wireguard, Docker Compose, OpenEMS, InfluxDB, Github Actions, Terraform, and the Grafana Labs observabilty stack.
+- [Ampowr.com](https://ampowr.com/): Edge and Cloud infrastructure for Ampowr's [Cosmos Energy Management System](https://ampowr.com/energy-management-system-ems/) using Cloud-Init, Wireguard, Docker Compose, OpenEMS, InfluxDB, Github Actions, Terraform, and the Grafana Labs observabilty stack.
 
 - [2Solar.nl](https://2solar.nl/): Migration of MySQL databases into AWS RDS, Implementation of Grafana Labs Obsrvability Stack, and GitLab Pipelines.
 
